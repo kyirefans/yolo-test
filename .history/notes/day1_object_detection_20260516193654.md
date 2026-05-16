@@ -1,2 +1,0 @@
-
-实验主要说明了 confidence 阈值对 YOLO 检测结果的影响，阈值越高，结果越保守、类别越少、平均置信度越高。/home/lzx/EmbodiedePrception/experiments
