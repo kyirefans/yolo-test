@@ -1,0 +1,107 @@
+{
+  "total_sources": 447,
+  "total_detections": 1944,
+  "class_counts": {
+    "person": 1898,
+    "sports ball": 10,
+    "clock": 6,
+    "baseball glove": 8,
+    "tv": 6,
+    "frisbee": 3,
+    "umbrella": 2,
+    "tennis racket": 1,
+    "bicycle": 3,
+    "chair": 4,
+    "traffic light": 3
+  },
+  "per_class_stats": [
+    {
+      "class_name": "person",
+      "count": 1898,
+      "avg_confidence": 0.766,
+      "max_confidence": 0.9527,
+      "min_confidence": 0.5012,
+      "avg_box_area": 167220.46
+    },
+    {
+      "class_name": "sports ball",
+      "count": 10,
+      "avg_confidence": 0.6091,
+      "max_confidence": 0.7434,
+      "min_confidence": 0.5113,
+      "avg_box_area": 10893.16
+    },
+    {
+      "class_name": "baseball glove",
+      "count": 8,
+      "avg_confidence": 0.564,
+      "max_confidence": 0.7488,
+      "min_confidence": 0.5086,
+      "avg_box_area": 13526.48
+    },
+    {
+      "class_name": "clock",
+      "count": 6,
+      "avg_confidence": 0.5322,
+      "max_confidence": 0.5482,
+      "min_confidence": 0.5034,
+      "avg_box_area": 22304.06
+    },
+    {
+      "class_name": "tv",
+      "count": 6,
+      "avg_confidence": 0.5295,
+      "max_confidence": 0.5488,
+      "min_confidence": 0.5016,
+      "avg_box_area": 58306.52
+    },
+    {
+      "class_name": "chair",
+      "count": 4,
+      "avg_confidence": 0.5576,
+      "max_confidence": 0.6015,
+      "min_confidence": 0.5139,
+      "avg_box_area": 24381.39
+    },
+    {
+      "class_name": "frisbee",
+      "count": 3,
+      "avg_confidence": 0.5588,
+      "max_confidence": 0.6191,
+      "min_confidence": 0.526,
+      "avg_box_area": 10231.07
+    },
+    {
+      "class_name": "bicycle",
+      "count": 3,
+      "avg_confidence": 0.6864,
+      "max_confidence": 0.6892,
+      "min_confidence": 0.6837,
+      "avg_box_area": 8885.29
+    },
+    {
+      "class_name": "traffic light",
+      "count": 3,
+      "avg_confidence": 0.5826,
+      "max_confidence": 0.5862,
+      "min_confidence": 0.5769,
+      "avg_box_area": 47271.89
+    },
+    {
+      "class_name": "umbrella",
+      "count": 2,
+      "avg_confidence": 0.6896,
+      "max_confidence": 0.706,
+      "min_confidence": 0.6733,
+      "avg_box_area": 407776.28
+    },
+    {
+      "class_name": "tennis racket",
+      "count": 1,
+      "avg_confidence": 0.5933,
+      "max_confidence": 0.5933,
+      "min_confidence": 0.5933,
+      "avg_box_area": 9553.22
+    }
+  ]
+}
