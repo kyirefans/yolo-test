@@ -35,13 +35,15 @@ data/images/*
 data/videos/*
 !data/images/.gitkeep
 !data/videos/.gitkeep
-# 忽略 datasets 文件夹下的所有内容
+
+# Keep dataset directory structure, but ignore dataset contents.
+dataset/**/*
 datasets/**/*
 
-# 但是，允许保留所有子目录结构（解除对目录的忽略）
+!dataset/**/
 !datasets/**/
 
-# 并且，允许保留所有名为 .gitkeep 的占位文件
+!dataset/**/.gitkeep
 !datasets/**/.gitkeep
 # Logs
 *.log
