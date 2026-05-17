@@ -9,7 +9,7 @@ venv/
 env/
 .history/
 *.egg-info/
-
+datasets/
 # Conda
 .conda/
 
