@@ -12,6 +12,7 @@ def run_detection(
     conf: float = 0.25,
     name: str = "detect_result",
     save_json: bool = True,
+    iou: float = 0.7,
 ):
     """
     Run object detection on an image or video.
@@ -21,6 +22,7 @@ def run_detection(
         model_path: YOLO model weight path.
         output_dir: Directory to save results.
         conf: Confidence threshold.
+        iou: NMS IoU threshold.
         name: Experiment/output name.
         save_json: Whether to save detection results as JSON.
     """
@@ -38,6 +40,7 @@ def run_detection(
         project=output_dir,
         name=name,
         exist_ok=True,
+        iou=iou,
     )
 
     all_results = []
@@ -100,6 +103,13 @@ def parse_args():
     )
 
     parser.add_argument(
+        "--iou",
+        type=float,
+        default=0.7,
+        help="NMS IoU threshold.",
+    )
+
+    parser.add_argument(
         "--model",
         type=str,
         default="yolo11n.pt",
@@ -146,4 +156,5 @@ if __name__ == "__main__":
         conf=args.conf,
         name=args.name,
         save_json=not args.no_json,
+        iou=args.iou,
     )
