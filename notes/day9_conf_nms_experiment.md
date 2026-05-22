@@ -343,3 +343,169 @@ Day10 建议进入：
 ```
 
 这样才能从“输出数量分析”进入“真实性能评估”。
+
+## 12. Day9 增强版：更换为官方带 GT 的视频序列
+
+前面的 Day9 实验使用的是普通视频：
+
+```text
+data/videos/test.mp4
+```
+
+它可以观察输出框数量、类别数量和平均置信度，但因为没有 GT 标注，所以不能严格计算：
+
+```text
+TP / FP / FN
+Precision / Recall
+```
+
+为了完善 Day9，下一步建议更换为官方带 GT 的视频序列。
+
+推荐数据集：
+
+```text
+MOTChallenge / MOT17
+```
+
+官方页面：
+
+```text
+https://motchallenge.net/data/MOT17/
+```
+
+原因：
+
+```text
+1. MOT17 是官方多目标跟踪基准数据集。
+2. 训练集序列带有 gt/gt.txt 标注文件。
+3. 标注格式清晰，适合学习视频帧级 TP / FP / FN。
+4. YOLO 的 COCO person 类可以和 MOT17 的 pedestrian GT 做近似对应。
+```
+
+注意：MOT17 官方发布形式通常是图像帧序列，而不是单个 `.mp4` 文件。对检测任务来说，这仍然等价于视频，因为每个序列的 `img1/` 文件夹就是连续视频帧。
+
+建议目录结构：
+
+```text
+datasets/MOT17/train/MOT17-02-SDP/
+  img1/
+    000001.jpg
+    000002.jpg
+    ...
+  gt/
+    gt.txt
+  seqinfo.ini
+```
+
+MOT GT 常见格式：
+
+```text
+frame_id, track_id, x, y, w, h, mark, class_id, visibility
+```
+
+其中：
+
+```text
+x, y, w, h
+```
+
+是像素级左上角坐标和宽高。
+
+## 13. 带 GT 的 Day9 实验流程
+
+### 13.1 运行 YOLO 检测
+
+对 MOT17 的帧序列运行检测：
+
+```bash
+python src/detect.py \
+  --source datasets/MOT17/train/MOT17-02-SDP/img1 \
+  --conf 0.25 \
+  --iou 0.70 \
+  --name day9_mot17_02_conf025_iou070
+```
+
+继续跑参数对比：
+
+```bash
+python src/detect.py --source datasets/MOT17/train/MOT17-02-SDP/img1 --conf 0.50 --iou 0.70 --name day9_mot17_02_conf050_iou070
+python src/detect.py --source datasets/MOT17/train/MOT17-02-SDP/img1 --conf 0.75 --iou 0.70 --name day9_mot17_02_conf075_iou070
+python src/detect.py --source datasets/MOT17/train/MOT17-02-SDP/img1 --conf 0.25 --iou 0.50 --name day9_mot17_02_conf025_iou050
+python src/detect.py --source datasets/MOT17/train/MOT17-02-SDP/img1 --conf 0.25 --iou 0.90 --name day9_mot17_02_conf025_iou090
+```
+
+### 13.2 用 GT 计算 TP / FP / FN
+
+本项目新增了评估脚本：
+
+```text
+scripts/evaluate_mot_detections.py
+```
+
+它会读取：
+
+```text
+1. YOLO 导出的 detections.json
+2. MOT17 的 gt/gt.txt
+```
+
+然后按 IoU 匹配预测框和 GT，输出：
+
+```text
+TP
+FP
+FN
+Precision
+Recall
+Avg matched IoU
+```
+
+示例命令：
+
+```bash
+python scripts/evaluate_mot_detections.py \
+  --json outputs/day9_mot17_02_conf025_iou070/detections.json \
+  --gt datasets/MOT17/train/MOT17-02-SDP/gt/gt.txt \
+  --out experiments/day9_mot17_02_conf025_iou070 \
+  --iou-thres 0.5 \
+  --class-name person \
+  --gt-class-ids 1
+```
+
+其他参数组对应修改 `--json` 和 `--out` 即可。
+
+## 14. 增强版 Day9 需要观察什么
+
+使用 MOT17 GT 后，就可以把 Day9 从“输出数量分析”升级为“真实性能分析”。
+
+建议对比表：
+
+| 实验 | conf | nms_iou | predictions | TP | FP | FN | Precision | Recall |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| A | 0.25 | 0.70 | ? | ? | ? | ? | ? | ? |
+| B | 0.50 | 0.70 | ? | ? | ? | ? | ? | ? |
+| C | 0.75 | 0.70 | ? | ? | ? | ? | ? | ? |
+| D | 0.25 | 0.50 | ? | ? | ? | ? | ? | ? |
+| E | 0.25 | 0.90 | ? | ? | ? | ? | ? | ? |
+
+重点分析：
+
+```text
+1. conf 提高后，FP 是否减少？
+2. conf 提高后，FN 是否增加？
+3. conf 提高后，Precision 是否上升？
+4. conf 提高后，Recall 是否下降？
+5. NMS IoU 降低后，重复框是否减少？
+6. NMS IoU 过低时，是否误删 TP？
+7. NMS IoU 过高时，FP 是否增加？
+```
+
+这样 Day9 就真正形成完整闭环：
+
+```text
+参数变化
+-> 输出框变化
+-> TP / FP / FN 变化
+-> Precision / Recall 变化
+-> 实验结论
+```
