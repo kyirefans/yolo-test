@@ -1,0 +1,17 @@
+{
+  "total_sources": 447,
+  "total_detections": 1171,
+  "class_counts": {
+    "person": 1171
+  },
+  "per_class_stats": [
+    {
+      "class_name": "person",
+      "count": 1171,
+      "avg_confidence": 0.8562,
+      "max_confidence": 0.9527,
+      "min_confidence": 0.75,
+      "avg_box_area": 217927.1
+    }
+  ]
+}
