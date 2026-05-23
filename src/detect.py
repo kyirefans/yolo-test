@@ -13,6 +13,7 @@ def run_detection(
     name: str = "detect_result",
     save_json: bool = True,
     iou: float = 0.7,
+    imgsz: int = 640,
 ):
     """
     Run object detection on an image or video.
@@ -41,6 +42,7 @@ def run_detection(
         name=name,
         exist_ok=True,
         iou=iou,
+        imgsz=imgsz,
     )
 
     all_results = []
@@ -142,6 +144,12 @@ def parse_args():
         action="store_true",
         help="Disable JSON saving.",
     )
+    parser.add_argument(
+    "--imgsz",
+    type=int,
+    default=640,
+    help="Inference image size.",
+    )
 
     return parser.parse_args()
 
@@ -157,4 +165,5 @@ if __name__ == "__main__":
         name=args.name,
         save_json=not args.no_json,
         iou=args.iou,
+        imgsz=args.imgsz,
     )

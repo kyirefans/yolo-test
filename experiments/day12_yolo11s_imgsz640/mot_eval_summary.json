@@ -1,0 +1,6026 @@
+{
+  "settings": {
+    "detections_json": "outputs/day12_yolo11s_imgsz1280/detections.json",
+    "gt_path": "datasets/MOT17-02-SDP/gt/gt.txt",
+    "iou_threshold": 0.5,
+    "class_name": "person",
+    "gt_class_ids": [
+      1
+    ],
+    "min_visibility": 0.0,
+    "marked_only": true
+  },
+  "summary": {
+    "num_frames": 600,
+    "total_predictions": 10388,
+    "total_gt": 18581,
+    "tp": 7599,
+    "fp": 2789,
+    "fn": 10982,
+    "precision": 0.7315171351559492,
+    "recall": 0.4089661482159195,
+    "avg_matched_iou": 0.8019834138821251
+  },
+  "frame_metrics": [
+    {
+      "frame_id": 1,
+      "tp": 10,
+      "fp": 11,
+      "fn": 12,
+      "num_predictions": 21,
+      "num_gt": 22,
+      "precision": 0.47619047619047616,
+      "recall": 0.45454545454545453
+    },
+    {
+      "frame_id": 2,
+      "tp": 11,
+      "fp": 6,
+      "fn": 11,
+      "num_predictions": 17,
+      "num_gt": 22,
+      "precision": 0.6470588235294118,
+      "recall": 0.5
+    },
+    {
+      "frame_id": 3,
+      "tp": 10,
+      "fp": 8,
+      "fn": 12,
+      "num_predictions": 18,
+      "num_gt": 22,
+      "precision": 0.5555555555555556,
+      "recall": 0.45454545454545453
+    },
+    {
+      "frame_id": 4,
+      "tp": 10,
+      "fp": 5,
+      "fn": 12,
+      "num_predictions": 15,
+      "num_gt": 22,
+      "precision": 0.6666666666666666,
+      "recall": 0.45454545454545453
+    },
+    {
+      "frame_id": 5,
+      "tp": 10,
+      "fp": 5,
+      "fn": 12,
+      "num_predictions": 15,
+      "num_gt": 22,
+      "precision": 0.6666666666666666,
+      "recall": 0.45454545454545453
+    },
+    {
+      "frame_id": 6,
+      "tp": 11,
+      "fp": 5,
+      "fn": 11,
+      "num_predictions": 16,
+      "num_gt": 22,
+      "precision": 0.6875,
+      "recall": 0.5
+    },
+    {
+      "frame_id": 7,
+      "tp": 11,
+      "fp": 6,
+      "fn": 11,
+      "num_predictions": 17,
+      "num_gt": 22,
+      "precision": 0.6470588235294118,
+      "recall": 0.5
+    },
+    {
+      "frame_id": 8,
+      "tp": 11,
+      "fp": 9,
+      "fn": 11,
+      "num_predictions": 20,
+      "num_gt": 22,
+      "precision": 0.55,
+      "recall": 0.5
+    },
+    {
+      "frame_id": 9,
+      "tp": 11,
+      "fp": 7,
+      "fn": 11,
+      "num_predictions": 18,
+      "num_gt": 22,
+      "precision": 0.6111111111111112,
+      "recall": 0.5
+    },
+    {
+      "frame_id": 10,
+      "tp": 11,
+      "fp": 7,
+      "fn": 11,
+      "num_predictions": 18,
+      "num_gt": 22,
+      "precision": 0.6111111111111112,
+      "recall": 0.5
+    },
+    {
+      "frame_id": 11,
+      "tp": 11,
+      "fp": 8,
+      "fn": 12,
+      "num_predictions": 19,
+      "num_gt": 23,
+      "precision": 0.5789473684210527,
+      "recall": 0.4782608695652174
+    },
+    {
+      "frame_id": 12,
+      "tp": 11,
+      "fp": 8,
+      "fn": 12,
+      "num_predictions": 19,
+      "num_gt": 23,
+      "precision": 0.5789473684210527,
+      "recall": 0.4782608695652174
+    },
+    {
+      "frame_id": 13,
+      "tp": 10,
+      "fp": 9,
+      "fn": 13,
+      "num_predictions": 19,
+      "num_gt": 23,
+      "precision": 0.5263157894736842,
+      "recall": 0.43478260869565216
+    },
+    {
+      "frame_id": 14,
+      "tp": 12,
+      "fp": 4,
+      "fn": 11,
+      "num_predictions": 16,
+      "num_gt": 23,
+      "precision": 0.75,
+      "recall": 0.5217391304347826
+    },
+    {
+      "frame_id": 15,
+      "tp": 9,
+      "fp": 8,
+      "fn": 14,
+      "num_predictions": 17,
+      "num_gt": 23,
+      "precision": 0.5294117647058824,
+      "recall": 0.391304347826087
+    },
+    {
+      "frame_id": 16,
+      "tp": 11,
+      "fp": 10,
+      "fn": 12,
+      "num_predictions": 21,
+      "num_gt": 23,
+      "precision": 0.5238095238095238,
+      "recall": 0.4782608695652174
+    },
+    {
+      "frame_id": 17,
+      "tp": 12,
+      "fp": 6,
+      "fn": 11,
+      "num_predictions": 18,
+      "num_gt": 23,
+      "precision": 0.6666666666666666,
+      "recall": 0.5217391304347826
+    },
+    {
+      "frame_id": 18,
+      "tp": 11,
+      "fp": 7,
+      "fn": 12,
+      "num_predictions": 18,
+      "num_gt": 23,
+      "precision": 0.6111111111111112,
+      "recall": 0.4782608695652174
+    },
+    {
+      "frame_id": 19,
+      "tp": 11,
+      "fp": 5,
+      "fn": 12,
+      "num_predictions": 16,
+      "num_gt": 23,
+      "precision": 0.6875,
+      "recall": 0.4782608695652174
+    },
+    {
+      "frame_id": 20,
+      "tp": 10,
+      "fp": 5,
+      "fn": 13,
+      "num_predictions": 15,
+      "num_gt": 23,
+      "precision": 0.6666666666666666,
+      "recall": 0.43478260869565216
+    },
+    {
+      "frame_id": 21,
+      "tp": 12,
+      "fp": 3,
+      "fn": 11,
+      "num_predictions": 15,
+      "num_gt": 23,
+      "precision": 0.8,
+      "recall": 0.5217391304347826
+    },
+    {
+      "frame_id": 22,
+      "tp": 10,
+      "fp": 7,
+      "fn": 13,
+      "num_predictions": 17,
+      "num_gt": 23,
+      "precision": 0.5882352941176471,
+      "recall": 0.43478260869565216
+    },
+    {
+      "frame_id": 23,
+      "tp": 10,
+      "fp": 7,
+      "fn": 13,
+      "num_predictions": 17,
+      "num_gt": 23,
+      "precision": 0.5882352941176471,
+      "recall": 0.43478260869565216
+    },
+    {
+      "frame_id": 24,
+      "tp": 12,
+      "fp": 7,
+      "fn": 11,
+      "num_predictions": 19,
+      "num_gt": 23,
+      "precision": 0.631578947368421,
+      "recall": 0.5217391304347826
+    },
+    {
+      "frame_id": 25,
+      "tp": 11,
+      "fp": 5,
+      "fn": 12,
+      "num_predictions": 16,
+      "num_gt": 23,
+      "precision": 0.6875,
+      "recall": 0.4782608695652174
+    },
+    {
+      "frame_id": 26,
+      "tp": 14,
+      "fp": 4,
+      "fn": 9,
+      "num_predictions": 18,
+      "num_gt": 23,
+      "precision": 0.7777777777777778,
+      "recall": 0.6086956521739131
+    },
+    {
+      "frame_id": 27,
+      "tp": 13,
+      "fp": 4,
+      "fn": 10,
+      "num_predictions": 17,
+      "num_gt": 23,
+      "precision": 0.7647058823529411,
+      "recall": 0.5652173913043478
+    },
+    {
+      "frame_id": 28,
+      "tp": 11,
+      "fp": 5,
+      "fn": 12,
+      "num_predictions": 16,
+      "num_gt": 23,
+      "precision": 0.6875,
+      "recall": 0.4782608695652174
+    },
+    {
+      "frame_id": 29,
+      "tp": 10,
+      "fp": 6,
+      "fn": 13,
+      "num_predictions": 16,
+      "num_gt": 23,
+      "precision": 0.625,
+      "recall": 0.43478260869565216
+    },
+    {
+      "frame_id": 30,
+      "tp": 9,
+      "fp": 6,
+      "fn": 14,
+      "num_predictions": 15,
+      "num_gt": 23,
+      "precision": 0.6,
+      "recall": 0.391304347826087
+    },
+    {
+      "frame_id": 31,
+      "tp": 12,
+      "fp": 6,
+      "fn": 12,
+      "num_predictions": 18,
+      "num_gt": 24,
+      "precision": 0.6666666666666666,
+      "recall": 0.5
+    },
+    {
+      "frame_id": 32,
+      "tp": 10,
+      "fp": 4,
+      "fn": 14,
+      "num_predictions": 14,
+      "num_gt": 24,
+      "precision": 0.7142857142857143,
+      "recall": 0.4166666666666667
+    },
+    {
+      "frame_id": 33,
+      "tp": 10,
+      "fp": 5,
+      "fn": 14,
+      "num_predictions": 15,
+      "num_gt": 24,
+      "precision": 0.6666666666666666,
+      "recall": 0.4166666666666667
+    },
+    {
+      "frame_id": 34,
+      "tp": 9,
+      "fp": 6,
+      "fn": 15,
+      "num_predictions": 15,
+      "num_gt": 24,
+      "precision": 0.6,
+      "recall": 0.375
+    },
+    {
+      "frame_id": 35,
+      "tp": 8,
+      "fp": 10,
+      "fn": 16,
+      "num_predictions": 18,
+      "num_gt": 24,
+      "precision": 0.4444444444444444,
+      "recall": 0.3333333333333333
+    },
+    {
+      "frame_id": 36,
+      "tp": 10,
+      "fp": 10,
+      "fn": 14,
+      "num_predictions": 20,
+      "num_gt": 24,
+      "precision": 0.5,
+      "recall": 0.4166666666666667
+    },
+    {
+      "frame_id": 37,
+      "tp": 11,
+      "fp": 8,
+      "fn": 13,
+      "num_predictions": 19,
+      "num_gt": 24,
+      "precision": 0.5789473684210527,
+      "recall": 0.4583333333333333
+    },
+    {
+      "frame_id": 38,
+      "tp": 11,
+      "fp": 7,
+      "fn": 13,
+      "num_predictions": 18,
+      "num_gt": 24,
+      "precision": 0.6111111111111112,
+      "recall": 0.4583333333333333
+    },
+    {
+      "frame_id": 39,
+      "tp": 9,
+      "fp": 6,
+      "fn": 15,
+      "num_predictions": 15,
+      "num_gt": 24,
+      "precision": 0.6,
+      "recall": 0.375
+    },
+    {
+      "frame_id": 40,
+      "tp": 10,
+      "fp": 5,
+      "fn": 13,
+      "num_predictions": 15,
+      "num_gt": 23,
+      "precision": 0.6666666666666666,
+      "recall": 0.43478260869565216
+    },
+    {
+      "frame_id": 41,
+      "tp": 11,
+      "fp": 6,
+      "fn": 13,
+      "num_predictions": 17,
+      "num_gt": 24,
+      "precision": 0.6470588235294118,
+      "recall": 0.4583333333333333
+    },
+    {
+      "frame_id": 42,
+      "tp": 11,
+      "fp": 10,
+      "fn": 13,
+      "num_predictions": 21,
+      "num_gt": 24,
+      "precision": 0.5238095238095238,
+      "recall": 0.4583333333333333
+    },
+    {
+      "frame_id": 43,
+      "tp": 11,
+      "fp": 7,
+      "fn": 13,
+      "num_predictions": 18,
+      "num_gt": 24,
+      "precision": 0.6111111111111112,
+      "recall": 0.4583333333333333
+    },
+    {
+      "frame_id": 44,
+      "tp": 10,
+      "fp": 10,
+      "fn": 13,
+      "num_predictions": 20,
+      "num_gt": 23,
+      "precision": 0.5,
+      "recall": 0.43478260869565216
+    },
+    {
+      "frame_id": 45,
+      "tp": 10,
+      "fp": 3,
+      "fn": 13,
+      "num_predictions": 13,
+      "num_gt": 23,
+      "precision": 0.7692307692307693,
+      "recall": 0.43478260869565216
+    },
+    {
+      "frame_id": 46,
+      "tp": 10,
+      "fp": 8,
+      "fn": 13,
+      "num_predictions": 18,
+      "num_gt": 23,
+      "precision": 0.5555555555555556,
+      "recall": 0.43478260869565216
+    },
+    {
+      "frame_id": 47,
+      "tp": 10,
+      "fp": 8,
+      "fn": 13,
+      "num_predictions": 18,
+      "num_gt": 23,
+      "precision": 0.5555555555555556,
+      "recall": 0.43478260869565216
+    },
+    {
+      "frame_id": 48,
+      "tp": 9,
+      "fp": 5,
+      "fn": 14,
+      "num_predictions": 14,
+      "num_gt": 23,
+      "precision": 0.6428571428571429,
+      "recall": 0.391304347826087
+    },
+    {
+      "frame_id": 49,
+      "tp": 10,
+      "fp": 2,
+      "fn": 13,
+      "num_predictions": 12,
+      "num_gt": 23,
+      "precision": 0.8333333333333334,
+      "recall": 0.43478260869565216
+    },
+    {
+      "frame_id": 50,
+      "tp": 9,
+      "fp": 7,
+      "fn": 14,
+      "num_predictions": 16,
+      "num_gt": 23,
+      "precision": 0.5625,
+      "recall": 0.391304347826087
+    },
+    {
+      "frame_id": 51,
+      "tp": 10,
+      "fp": 6,
+      "fn": 15,
+      "num_predictions": 16,
+      "num_gt": 25,
+      "precision": 0.625,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 52,
+      "tp": 11,
+      "fp": 5,
+      "fn": 14,
+      "num_predictions": 16,
+      "num_gt": 25,
+      "precision": 0.6875,
+      "recall": 0.44
+    },
+    {
+      "frame_id": 53,
+      "tp": 12,
+      "fp": 6,
+      "fn": 13,
+      "num_predictions": 18,
+      "num_gt": 25,
+      "precision": 0.6666666666666666,
+      "recall": 0.48
+    },
+    {
+      "frame_id": 54,
+      "tp": 11,
+      "fp": 5,
+      "fn": 14,
+      "num_predictions": 16,
+      "num_gt": 25,
+      "precision": 0.6875,
+      "recall": 0.44
+    },
+    {
+      "frame_id": 55,
+      "tp": 9,
+      "fp": 6,
+      "fn": 16,
+      "num_predictions": 15,
+      "num_gt": 25,
+      "precision": 0.6,
+      "recall": 0.36
+    },
+    {
+      "frame_id": 56,
+      "tp": 9,
+      "fp": 6,
+      "fn": 16,
+      "num_predictions": 15,
+      "num_gt": 25,
+      "precision": 0.6,
+      "recall": 0.36
+    },
+    {
+      "frame_id": 57,
+      "tp": 8,
+      "fp": 4,
+      "fn": 16,
+      "num_predictions": 12,
+      "num_gt": 24,
+      "precision": 0.6666666666666666,
+      "recall": 0.3333333333333333
+    },
+    {
+      "frame_id": 58,
+      "tp": 9,
+      "fp": 6,
+      "fn": 16,
+      "num_predictions": 15,
+      "num_gt": 25,
+      "precision": 0.6,
+      "recall": 0.36
+    },
+    {
+      "frame_id": 59,
+      "tp": 10,
+      "fp": 9,
+      "fn": 15,
+      "num_predictions": 19,
+      "num_gt": 25,
+      "precision": 0.5263157894736842,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 60,
+      "tp": 9,
+      "fp": 8,
+      "fn": 16,
+      "num_predictions": 17,
+      "num_gt": 25,
+      "precision": 0.5294117647058824,
+      "recall": 0.36
+    },
+    {
+      "frame_id": 61,
+      "tp": 11,
+      "fp": 9,
+      "fn": 14,
+      "num_predictions": 20,
+      "num_gt": 25,
+      "precision": 0.55,
+      "recall": 0.44
+    },
+    {
+      "frame_id": 62,
+      "tp": 9,
+      "fp": 9,
+      "fn": 16,
+      "num_predictions": 18,
+      "num_gt": 25,
+      "precision": 0.5,
+      "recall": 0.36
+    },
+    {
+      "frame_id": 63,
+      "tp": 10,
+      "fp": 5,
+      "fn": 15,
+      "num_predictions": 15,
+      "num_gt": 25,
+      "precision": 0.6666666666666666,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 64,
+      "tp": 10,
+      "fp": 5,
+      "fn": 16,
+      "num_predictions": 15,
+      "num_gt": 26,
+      "precision": 0.6666666666666666,
+      "recall": 0.38461538461538464
+    },
+    {
+      "frame_id": 65,
+      "tp": 10,
+      "fp": 9,
+      "fn": 16,
+      "num_predictions": 19,
+      "num_gt": 26,
+      "precision": 0.5263157894736842,
+      "recall": 0.38461538461538464
+    },
+    {
+      "frame_id": 66,
+      "tp": 10,
+      "fp": 7,
+      "fn": 16,
+      "num_predictions": 17,
+      "num_gt": 26,
+      "precision": 0.5882352941176471,
+      "recall": 0.38461538461538464
+    },
+    {
+      "frame_id": 67,
+      "tp": 9,
+      "fp": 6,
+      "fn": 17,
+      "num_predictions": 15,
+      "num_gt": 26,
+      "precision": 0.6,
+      "recall": 0.34615384615384615
+    },
+    {
+      "frame_id": 68,
+      "tp": 9,
+      "fp": 5,
+      "fn": 17,
+      "num_predictions": 14,
+      "num_gt": 26,
+      "precision": 0.6428571428571429,
+      "recall": 0.34615384615384615
+    },
+    {
+      "frame_id": 69,
+      "tp": 10,
+      "fp": 3,
+      "fn": 16,
+      "num_predictions": 13,
+      "num_gt": 26,
+      "precision": 0.7692307692307693,
+      "recall": 0.38461538461538464
+    },
+    {
+      "frame_id": 70,
+      "tp": 11,
+      "fp": 2,
+      "fn": 15,
+      "num_predictions": 13,
+      "num_gt": 26,
+      "precision": 0.8461538461538461,
+      "recall": 0.4230769230769231
+    },
+    {
+      "frame_id": 71,
+      "tp": 11,
+      "fp": 4,
+      "fn": 15,
+      "num_predictions": 15,
+      "num_gt": 26,
+      "precision": 0.7333333333333333,
+      "recall": 0.4230769230769231
+    },
+    {
+      "frame_id": 72,
+      "tp": 12,
+      "fp": 3,
+      "fn": 14,
+      "num_predictions": 15,
+      "num_gt": 26,
+      "precision": 0.8,
+      "recall": 0.46153846153846156
+    },
+    {
+      "frame_id": 73,
+      "tp": 11,
+      "fp": 6,
+      "fn": 15,
+      "num_predictions": 17,
+      "num_gt": 26,
+      "precision": 0.6470588235294118,
+      "recall": 0.4230769230769231
+    },
+    {
+      "frame_id": 74,
+      "tp": 12,
+      "fp": 7,
+      "fn": 14,
+      "num_predictions": 19,
+      "num_gt": 26,
+      "precision": 0.631578947368421,
+      "recall": 0.46153846153846156
+    },
+    {
+      "frame_id": 75,
+      "tp": 9,
+      "fp": 7,
+      "fn": 17,
+      "num_predictions": 16,
+      "num_gt": 26,
+      "precision": 0.5625,
+      "recall": 0.34615384615384615
+    },
+    {
+      "frame_id": 76,
+      "tp": 9,
+      "fp": 7,
+      "fn": 17,
+      "num_predictions": 16,
+      "num_gt": 26,
+      "precision": 0.5625,
+      "recall": 0.34615384615384615
+    },
+    {
+      "frame_id": 77,
+      "tp": 8,
+      "fp": 9,
+      "fn": 18,
+      "num_predictions": 17,
+      "num_gt": 26,
+      "precision": 0.47058823529411764,
+      "recall": 0.3076923076923077
+    },
+    {
+      "frame_id": 78,
+      "tp": 9,
+      "fp": 10,
+      "fn": 17,
+      "num_predictions": 19,
+      "num_gt": 26,
+      "precision": 0.47368421052631576,
+      "recall": 0.34615384615384615
+    },
+    {
+      "frame_id": 79,
+      "tp": 9,
+      "fp": 6,
+      "fn": 17,
+      "num_predictions": 15,
+      "num_gt": 26,
+      "precision": 0.6,
+      "recall": 0.34615384615384615
+    },
+    {
+      "frame_id": 80,
+      "tp": 9,
+      "fp": 8,
+      "fn": 17,
+      "num_predictions": 17,
+      "num_gt": 26,
+      "precision": 0.5294117647058824,
+      "recall": 0.34615384615384615
+    },
+    {
+      "frame_id": 81,
+      "tp": 9,
+      "fp": 4,
+      "fn": 16,
+      "num_predictions": 13,
+      "num_gt": 25,
+      "precision": 0.6923076923076923,
+      "recall": 0.36
+    },
+    {
+      "frame_id": 82,
+      "tp": 8,
+      "fp": 7,
+      "fn": 17,
+      "num_predictions": 15,
+      "num_gt": 25,
+      "precision": 0.5333333333333333,
+      "recall": 0.32
+    },
+    {
+      "frame_id": 83,
+      "tp": 9,
+      "fp": 7,
+      "fn": 16,
+      "num_predictions": 16,
+      "num_gt": 25,
+      "precision": 0.5625,
+      "recall": 0.36
+    },
+    {
+      "frame_id": 84,
+      "tp": 9,
+      "fp": 5,
+      "fn": 16,
+      "num_predictions": 14,
+      "num_gt": 25,
+      "precision": 0.6428571428571429,
+      "recall": 0.36
+    },
+    {
+      "frame_id": 85,
+      "tp": 7,
+      "fp": 8,
+      "fn": 18,
+      "num_predictions": 15,
+      "num_gt": 25,
+      "precision": 0.4666666666666667,
+      "recall": 0.28
+    },
+    {
+      "frame_id": 86,
+      "tp": 9,
+      "fp": 8,
+      "fn": 16,
+      "num_predictions": 17,
+      "num_gt": 25,
+      "precision": 0.5294117647058824,
+      "recall": 0.36
+    },
+    {
+      "frame_id": 87,
+      "tp": 11,
+      "fp": 6,
+      "fn": 14,
+      "num_predictions": 17,
+      "num_gt": 25,
+      "precision": 0.6470588235294118,
+      "recall": 0.44
+    },
+    {
+      "frame_id": 88,
+      "tp": 10,
+      "fp": 4,
+      "fn": 15,
+      "num_predictions": 14,
+      "num_gt": 25,
+      "precision": 0.7142857142857143,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 89,
+      "tp": 10,
+      "fp": 6,
+      "fn": 15,
+      "num_predictions": 16,
+      "num_gt": 25,
+      "precision": 0.625,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 90,
+      "tp": 10,
+      "fp": 5,
+      "fn": 15,
+      "num_predictions": 15,
+      "num_gt": 25,
+      "precision": 0.6666666666666666,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 91,
+      "tp": 10,
+      "fp": 7,
+      "fn": 16,
+      "num_predictions": 17,
+      "num_gt": 26,
+      "precision": 0.5882352941176471,
+      "recall": 0.38461538461538464
+    },
+    {
+      "frame_id": 92,
+      "tp": 10,
+      "fp": 7,
+      "fn": 16,
+      "num_predictions": 17,
+      "num_gt": 26,
+      "precision": 0.5882352941176471,
+      "recall": 0.38461538461538464
+    },
+    {
+      "frame_id": 93,
+      "tp": 9,
+      "fp": 5,
+      "fn": 17,
+      "num_predictions": 14,
+      "num_gt": 26,
+      "precision": 0.6428571428571429,
+      "recall": 0.34615384615384615
+    },
+    {
+      "frame_id": 94,
+      "tp": 10,
+      "fp": 5,
+      "fn": 16,
+      "num_predictions": 15,
+      "num_gt": 26,
+      "precision": 0.6666666666666666,
+      "recall": 0.38461538461538464
+    },
+    {
+      "frame_id": 95,
+      "tp": 9,
+      "fp": 5,
+      "fn": 17,
+      "num_predictions": 14,
+      "num_gt": 26,
+      "precision": 0.6428571428571429,
+      "recall": 0.34615384615384615
+    },
+    {
+      "frame_id": 96,
+      "tp": 9,
+      "fp": 4,
+      "fn": 17,
+      "num_predictions": 13,
+      "num_gt": 26,
+      "precision": 0.6923076923076923,
+      "recall": 0.34615384615384615
+    },
+    {
+      "frame_id": 97,
+      "tp": 9,
+      "fp": 3,
+      "fn": 17,
+      "num_predictions": 12,
+      "num_gt": 26,
+      "precision": 0.75,
+      "recall": 0.34615384615384615
+    },
+    {
+      "frame_id": 98,
+      "tp": 8,
+      "fp": 2,
+      "fn": 18,
+      "num_predictions": 10,
+      "num_gt": 26,
+      "precision": 0.8,
+      "recall": 0.3076923076923077
+    },
+    {
+      "frame_id": 99,
+      "tp": 10,
+      "fp": 3,
+      "fn": 16,
+      "num_predictions": 13,
+      "num_gt": 26,
+      "precision": 0.7692307692307693,
+      "recall": 0.38461538461538464
+    },
+    {
+      "frame_id": 100,
+      "tp": 10,
+      "fp": 2,
+      "fn": 16,
+      "num_predictions": 12,
+      "num_gt": 26,
+      "precision": 0.8333333333333334,
+      "recall": 0.38461538461538464
+    },
+    {
+      "frame_id": 101,
+      "tp": 10,
+      "fp": 2,
+      "fn": 16,
+      "num_predictions": 12,
+      "num_gt": 26,
+      "precision": 0.8333333333333334,
+      "recall": 0.38461538461538464
+    },
+    {
+      "frame_id": 102,
+      "tp": 10,
+      "fp": 3,
+      "fn": 16,
+      "num_predictions": 13,
+      "num_gt": 26,
+      "precision": 0.7692307692307693,
+      "recall": 0.38461538461538464
+    },
+    {
+      "frame_id": 103,
+      "tp": 10,
+      "fp": 6,
+      "fn": 16,
+      "num_predictions": 16,
+      "num_gt": 26,
+      "precision": 0.625,
+      "recall": 0.38461538461538464
+    },
+    {
+      "frame_id": 104,
+      "tp": 12,
+      "fp": 4,
+      "fn": 14,
+      "num_predictions": 16,
+      "num_gt": 26,
+      "precision": 0.75,
+      "recall": 0.46153846153846156
+    },
+    {
+      "frame_id": 105,
+      "tp": 9,
+      "fp": 3,
+      "fn": 17,
+      "num_predictions": 12,
+      "num_gt": 26,
+      "precision": 0.75,
+      "recall": 0.34615384615384615
+    },
+    {
+      "frame_id": 106,
+      "tp": 10,
+      "fp": 4,
+      "fn": 16,
+      "num_predictions": 14,
+      "num_gt": 26,
+      "precision": 0.7142857142857143,
+      "recall": 0.38461538461538464
+    },
+    {
+      "frame_id": 107,
+      "tp": 8,
+      "fp": 2,
+      "fn": 18,
+      "num_predictions": 10,
+      "num_gt": 26,
+      "precision": 0.8,
+      "recall": 0.3076923076923077
+    },
+    {
+      "frame_id": 108,
+      "tp": 11,
+      "fp": 2,
+      "fn": 15,
+      "num_predictions": 13,
+      "num_gt": 26,
+      "precision": 0.8461538461538461,
+      "recall": 0.4230769230769231
+    },
+    {
+      "frame_id": 109,
+      "tp": 10,
+      "fp": 1,
+      "fn": 16,
+      "num_predictions": 11,
+      "num_gt": 26,
+      "precision": 0.9090909090909091,
+      "recall": 0.38461538461538464
+    },
+    {
+      "frame_id": 110,
+      "tp": 11,
+      "fp": 3,
+      "fn": 15,
+      "num_predictions": 14,
+      "num_gt": 26,
+      "precision": 0.7857142857142857,
+      "recall": 0.4230769230769231
+    },
+    {
+      "frame_id": 111,
+      "tp": 11,
+      "fp": 3,
+      "fn": 16,
+      "num_predictions": 14,
+      "num_gt": 27,
+      "precision": 0.7857142857142857,
+      "recall": 0.4074074074074074
+    },
+    {
+      "frame_id": 112,
+      "tp": 11,
+      "fp": 2,
+      "fn": 17,
+      "num_predictions": 13,
+      "num_gt": 28,
+      "precision": 0.8461538461538461,
+      "recall": 0.39285714285714285
+    },
+    {
+      "frame_id": 113,
+      "tp": 12,
+      "fp": 2,
+      "fn": 16,
+      "num_predictions": 14,
+      "num_gt": 28,
+      "precision": 0.8571428571428571,
+      "recall": 0.42857142857142855
+    },
+    {
+      "frame_id": 114,
+      "tp": 11,
+      "fp": 5,
+      "fn": 17,
+      "num_predictions": 16,
+      "num_gt": 28,
+      "precision": 0.6875,
+      "recall": 0.39285714285714285
+    },
+    {
+      "frame_id": 115,
+      "tp": 11,
+      "fp": 2,
+      "fn": 17,
+      "num_predictions": 13,
+      "num_gt": 28,
+      "precision": 0.8461538461538461,
+      "recall": 0.39285714285714285
+    },
+    {
+      "frame_id": 116,
+      "tp": 9,
+      "fp": 3,
+      "fn": 19,
+      "num_predictions": 12,
+      "num_gt": 28,
+      "precision": 0.75,
+      "recall": 0.32142857142857145
+    },
+    {
+      "frame_id": 117,
+      "tp": 10,
+      "fp": 2,
+      "fn": 18,
+      "num_predictions": 12,
+      "num_gt": 28,
+      "precision": 0.8333333333333334,
+      "recall": 0.35714285714285715
+    },
+    {
+      "frame_id": 118,
+      "tp": 10,
+      "fp": 3,
+      "fn": 18,
+      "num_predictions": 13,
+      "num_gt": 28,
+      "precision": 0.7692307692307693,
+      "recall": 0.35714285714285715
+    },
+    {
+      "frame_id": 119,
+      "tp": 11,
+      "fp": 1,
+      "fn": 17,
+      "num_predictions": 12,
+      "num_gt": 28,
+      "precision": 0.9166666666666666,
+      "recall": 0.39285714285714285
+    },
+    {
+      "frame_id": 120,
+      "tp": 10,
+      "fp": 5,
+      "fn": 18,
+      "num_predictions": 15,
+      "num_gt": 28,
+      "precision": 0.6666666666666666,
+      "recall": 0.35714285714285715
+    },
+    {
+      "frame_id": 121,
+      "tp": 9,
+      "fp": 7,
+      "fn": 19,
+      "num_predictions": 16,
+      "num_gt": 28,
+      "precision": 0.5625,
+      "recall": 0.32142857142857145
+    },
+    {
+      "frame_id": 122,
+      "tp": 9,
+      "fp": 6,
+      "fn": 20,
+      "num_predictions": 15,
+      "num_gt": 29,
+      "precision": 0.6,
+      "recall": 0.3103448275862069
+    },
+    {
+      "frame_id": 123,
+      "tp": 10,
+      "fp": 2,
+      "fn": 19,
+      "num_predictions": 12,
+      "num_gt": 29,
+      "precision": 0.8333333333333334,
+      "recall": 0.3448275862068966
+    },
+    {
+      "frame_id": 124,
+      "tp": 10,
+      "fp": 5,
+      "fn": 19,
+      "num_predictions": 15,
+      "num_gt": 29,
+      "precision": 0.6666666666666666,
+      "recall": 0.3448275862068966
+    },
+    {
+      "frame_id": 125,
+      "tp": 10,
+      "fp": 5,
+      "fn": 19,
+      "num_predictions": 15,
+      "num_gt": 29,
+      "precision": 0.6666666666666666,
+      "recall": 0.3448275862068966
+    },
+    {
+      "frame_id": 126,
+      "tp": 9,
+      "fp": 4,
+      "fn": 20,
+      "num_predictions": 13,
+      "num_gt": 29,
+      "precision": 0.6923076923076923,
+      "recall": 0.3103448275862069
+    },
+    {
+      "frame_id": 127,
+      "tp": 8,
+      "fp": 4,
+      "fn": 21,
+      "num_predictions": 12,
+      "num_gt": 29,
+      "precision": 0.6666666666666666,
+      "recall": 0.27586206896551724
+    },
+    {
+      "frame_id": 128,
+      "tp": 11,
+      "fp": 5,
+      "fn": 18,
+      "num_predictions": 16,
+      "num_gt": 29,
+      "precision": 0.6875,
+      "recall": 0.3793103448275862
+    },
+    {
+      "frame_id": 129,
+      "tp": 11,
+      "fp": 7,
+      "fn": 18,
+      "num_predictions": 18,
+      "num_gt": 29,
+      "precision": 0.6111111111111112,
+      "recall": 0.3793103448275862
+    },
+    {
+      "frame_id": 130,
+      "tp": 11,
+      "fp": 6,
+      "fn": 18,
+      "num_predictions": 17,
+      "num_gt": 29,
+      "precision": 0.6470588235294118,
+      "recall": 0.3793103448275862
+    },
+    {
+      "frame_id": 131,
+      "tp": 12,
+      "fp": 1,
+      "fn": 17,
+      "num_predictions": 13,
+      "num_gt": 29,
+      "precision": 0.9230769230769231,
+      "recall": 0.41379310344827586
+    },
+    {
+      "frame_id": 132,
+      "tp": 10,
+      "fp": 3,
+      "fn": 19,
+      "num_predictions": 13,
+      "num_gt": 29,
+      "precision": 0.7692307692307693,
+      "recall": 0.3448275862068966
+    },
+    {
+      "frame_id": 133,
+      "tp": 11,
+      "fp": 5,
+      "fn": 18,
+      "num_predictions": 16,
+      "num_gt": 29,
+      "precision": 0.6875,
+      "recall": 0.3793103448275862
+    },
+    {
+      "frame_id": 134,
+      "tp": 14,
+      "fp": 6,
+      "fn": 15,
+      "num_predictions": 20,
+      "num_gt": 29,
+      "precision": 0.7,
+      "recall": 0.4827586206896552
+    },
+    {
+      "frame_id": 135,
+      "tp": 13,
+      "fp": 8,
+      "fn": 16,
+      "num_predictions": 21,
+      "num_gt": 29,
+      "precision": 0.6190476190476191,
+      "recall": 0.4482758620689655
+    },
+    {
+      "frame_id": 136,
+      "tp": 12,
+      "fp": 4,
+      "fn": 17,
+      "num_predictions": 16,
+      "num_gt": 29,
+      "precision": 0.75,
+      "recall": 0.41379310344827586
+    },
+    {
+      "frame_id": 137,
+      "tp": 12,
+      "fp": 5,
+      "fn": 17,
+      "num_predictions": 17,
+      "num_gt": 29,
+      "precision": 0.7058823529411765,
+      "recall": 0.41379310344827586
+    },
+    {
+      "frame_id": 138,
+      "tp": 12,
+      "fp": 5,
+      "fn": 17,
+      "num_predictions": 17,
+      "num_gt": 29,
+      "precision": 0.7058823529411765,
+      "recall": 0.41379310344827586
+    },
+    {
+      "frame_id": 139,
+      "tp": 12,
+      "fp": 5,
+      "fn": 17,
+      "num_predictions": 17,
+      "num_gt": 29,
+      "precision": 0.7058823529411765,
+      "recall": 0.41379310344827586
+    },
+    {
+      "frame_id": 140,
+      "tp": 13,
+      "fp": 7,
+      "fn": 17,
+      "num_predictions": 20,
+      "num_gt": 30,
+      "precision": 0.65,
+      "recall": 0.43333333333333335
+    },
+    {
+      "frame_id": 141,
+      "tp": 13,
+      "fp": 4,
+      "fn": 17,
+      "num_predictions": 17,
+      "num_gt": 30,
+      "precision": 0.7647058823529411,
+      "recall": 0.43333333333333335
+    },
+    {
+      "frame_id": 142,
+      "tp": 13,
+      "fp": 3,
+      "fn": 17,
+      "num_predictions": 16,
+      "num_gt": 30,
+      "precision": 0.8125,
+      "recall": 0.43333333333333335
+    },
+    {
+      "frame_id": 143,
+      "tp": 14,
+      "fp": 1,
+      "fn": 16,
+      "num_predictions": 15,
+      "num_gt": 30,
+      "precision": 0.9333333333333333,
+      "recall": 0.4666666666666667
+    },
+    {
+      "frame_id": 144,
+      "tp": 13,
+      "fp": 3,
+      "fn": 17,
+      "num_predictions": 16,
+      "num_gt": 30,
+      "precision": 0.8125,
+      "recall": 0.43333333333333335
+    },
+    {
+      "frame_id": 145,
+      "tp": 16,
+      "fp": 3,
+      "fn": 14,
+      "num_predictions": 19,
+      "num_gt": 30,
+      "precision": 0.8421052631578947,
+      "recall": 0.5333333333333333
+    },
+    {
+      "frame_id": 146,
+      "tp": 16,
+      "fp": 3,
+      "fn": 15,
+      "num_predictions": 19,
+      "num_gt": 31,
+      "precision": 0.8421052631578947,
+      "recall": 0.5161290322580645
+    },
+    {
+      "frame_id": 147,
+      "tp": 17,
+      "fp": 5,
+      "fn": 14,
+      "num_predictions": 22,
+      "num_gt": 31,
+      "precision": 0.7727272727272727,
+      "recall": 0.5483870967741935
+    },
+    {
+      "frame_id": 148,
+      "tp": 15,
+      "fp": 4,
+      "fn": 16,
+      "num_predictions": 19,
+      "num_gt": 31,
+      "precision": 0.7894736842105263,
+      "recall": 0.4838709677419355
+    },
+    {
+      "frame_id": 149,
+      "tp": 15,
+      "fp": 4,
+      "fn": 16,
+      "num_predictions": 19,
+      "num_gt": 31,
+      "precision": 0.7894736842105263,
+      "recall": 0.4838709677419355
+    },
+    {
+      "frame_id": 150,
+      "tp": 12,
+      "fp": 3,
+      "fn": 19,
+      "num_predictions": 15,
+      "num_gt": 31,
+      "precision": 0.8,
+      "recall": 0.3870967741935484
+    },
+    {
+      "frame_id": 151,
+      "tp": 12,
+      "fp": 4,
+      "fn": 18,
+      "num_predictions": 16,
+      "num_gt": 30,
+      "precision": 0.75,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 152,
+      "tp": 12,
+      "fp": 4,
+      "fn": 18,
+      "num_predictions": 16,
+      "num_gt": 30,
+      "precision": 0.75,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 153,
+      "tp": 14,
+      "fp": 3,
+      "fn": 16,
+      "num_predictions": 17,
+      "num_gt": 30,
+      "precision": 0.8235294117647058,
+      "recall": 0.4666666666666667
+    },
+    {
+      "frame_id": 154,
+      "tp": 13,
+      "fp": 3,
+      "fn": 17,
+      "num_predictions": 16,
+      "num_gt": 30,
+      "precision": 0.8125,
+      "recall": 0.43333333333333335
+    },
+    {
+      "frame_id": 155,
+      "tp": 13,
+      "fp": 3,
+      "fn": 17,
+      "num_predictions": 16,
+      "num_gt": 30,
+      "precision": 0.8125,
+      "recall": 0.43333333333333335
+    },
+    {
+      "frame_id": 156,
+      "tp": 12,
+      "fp": 4,
+      "fn": 18,
+      "num_predictions": 16,
+      "num_gt": 30,
+      "precision": 0.75,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 157,
+      "tp": 12,
+      "fp": 5,
+      "fn": 18,
+      "num_predictions": 17,
+      "num_gt": 30,
+      "precision": 0.7058823529411765,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 158,
+      "tp": 11,
+      "fp": 3,
+      "fn": 19,
+      "num_predictions": 14,
+      "num_gt": 30,
+      "precision": 0.7857142857142857,
+      "recall": 0.36666666666666664
+    },
+    {
+      "frame_id": 159,
+      "tp": 12,
+      "fp": 2,
+      "fn": 18,
+      "num_predictions": 14,
+      "num_gt": 30,
+      "precision": 0.8571428571428571,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 160,
+      "tp": 12,
+      "fp": 6,
+      "fn": 18,
+      "num_predictions": 18,
+      "num_gt": 30,
+      "precision": 0.6666666666666666,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 161,
+      "tp": 12,
+      "fp": 3,
+      "fn": 18,
+      "num_predictions": 15,
+      "num_gt": 30,
+      "precision": 0.8,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 162,
+      "tp": 12,
+      "fp": 3,
+      "fn": 18,
+      "num_predictions": 15,
+      "num_gt": 30,
+      "precision": 0.8,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 163,
+      "tp": 11,
+      "fp": 1,
+      "fn": 19,
+      "num_predictions": 12,
+      "num_gt": 30,
+      "precision": 0.9166666666666666,
+      "recall": 0.36666666666666664
+    },
+    {
+      "frame_id": 164,
+      "tp": 11,
+      "fp": 1,
+      "fn": 19,
+      "num_predictions": 12,
+      "num_gt": 30,
+      "precision": 0.9166666666666666,
+      "recall": 0.36666666666666664
+    },
+    {
+      "frame_id": 165,
+      "tp": 13,
+      "fp": 4,
+      "fn": 17,
+      "num_predictions": 17,
+      "num_gt": 30,
+      "precision": 0.7647058823529411,
+      "recall": 0.43333333333333335
+    },
+    {
+      "frame_id": 166,
+      "tp": 13,
+      "fp": 3,
+      "fn": 17,
+      "num_predictions": 16,
+      "num_gt": 30,
+      "precision": 0.8125,
+      "recall": 0.43333333333333335
+    },
+    {
+      "frame_id": 167,
+      "tp": 12,
+      "fp": 2,
+      "fn": 18,
+      "num_predictions": 14,
+      "num_gt": 30,
+      "precision": 0.8571428571428571,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 168,
+      "tp": 12,
+      "fp": 1,
+      "fn": 18,
+      "num_predictions": 13,
+      "num_gt": 30,
+      "precision": 0.9230769230769231,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 169,
+      "tp": 12,
+      "fp": 2,
+      "fn": 18,
+      "num_predictions": 14,
+      "num_gt": 30,
+      "precision": 0.8571428571428571,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 170,
+      "tp": 11,
+      "fp": 6,
+      "fn": 19,
+      "num_predictions": 17,
+      "num_gt": 30,
+      "precision": 0.6470588235294118,
+      "recall": 0.36666666666666664
+    },
+    {
+      "frame_id": 171,
+      "tp": 11,
+      "fp": 9,
+      "fn": 19,
+      "num_predictions": 20,
+      "num_gt": 30,
+      "precision": 0.55,
+      "recall": 0.36666666666666664
+    },
+    {
+      "frame_id": 172,
+      "tp": 11,
+      "fp": 5,
+      "fn": 19,
+      "num_predictions": 16,
+      "num_gt": 30,
+      "precision": 0.6875,
+      "recall": 0.36666666666666664
+    },
+    {
+      "frame_id": 173,
+      "tp": 11,
+      "fp": 5,
+      "fn": 19,
+      "num_predictions": 16,
+      "num_gt": 30,
+      "precision": 0.6875,
+      "recall": 0.36666666666666664
+    },
+    {
+      "frame_id": 174,
+      "tp": 11,
+      "fp": 5,
+      "fn": 19,
+      "num_predictions": 16,
+      "num_gt": 30,
+      "precision": 0.6875,
+      "recall": 0.36666666666666664
+    },
+    {
+      "frame_id": 175,
+      "tp": 13,
+      "fp": 4,
+      "fn": 17,
+      "num_predictions": 17,
+      "num_gt": 30,
+      "precision": 0.7647058823529411,
+      "recall": 0.43333333333333335
+    },
+    {
+      "frame_id": 176,
+      "tp": 11,
+      "fp": 6,
+      "fn": 19,
+      "num_predictions": 17,
+      "num_gt": 30,
+      "precision": 0.6470588235294118,
+      "recall": 0.36666666666666664
+    },
+    {
+      "frame_id": 177,
+      "tp": 12,
+      "fp": 2,
+      "fn": 18,
+      "num_predictions": 14,
+      "num_gt": 30,
+      "precision": 0.8571428571428571,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 178,
+      "tp": 13,
+      "fp": 2,
+      "fn": 17,
+      "num_predictions": 15,
+      "num_gt": 30,
+      "precision": 0.8666666666666667,
+      "recall": 0.43333333333333335
+    },
+    {
+      "frame_id": 179,
+      "tp": 11,
+      "fp": 2,
+      "fn": 19,
+      "num_predictions": 13,
+      "num_gt": 30,
+      "precision": 0.8461538461538461,
+      "recall": 0.36666666666666664
+    },
+    {
+      "frame_id": 180,
+      "tp": 11,
+      "fp": 2,
+      "fn": 19,
+      "num_predictions": 13,
+      "num_gt": 30,
+      "precision": 0.8461538461538461,
+      "recall": 0.36666666666666664
+    },
+    {
+      "frame_id": 181,
+      "tp": 11,
+      "fp": 1,
+      "fn": 19,
+      "num_predictions": 12,
+      "num_gt": 30,
+      "precision": 0.9166666666666666,
+      "recall": 0.36666666666666664
+    },
+    {
+      "frame_id": 182,
+      "tp": 11,
+      "fp": 3,
+      "fn": 19,
+      "num_predictions": 14,
+      "num_gt": 30,
+      "precision": 0.7857142857142857,
+      "recall": 0.36666666666666664
+    },
+    {
+      "frame_id": 183,
+      "tp": 10,
+      "fp": 3,
+      "fn": 20,
+      "num_predictions": 13,
+      "num_gt": 30,
+      "precision": 0.7692307692307693,
+      "recall": 0.3333333333333333
+    },
+    {
+      "frame_id": 184,
+      "tp": 11,
+      "fp": 3,
+      "fn": 19,
+      "num_predictions": 14,
+      "num_gt": 30,
+      "precision": 0.7857142857142857,
+      "recall": 0.36666666666666664
+    },
+    {
+      "frame_id": 185,
+      "tp": 13,
+      "fp": 1,
+      "fn": 17,
+      "num_predictions": 14,
+      "num_gt": 30,
+      "precision": 0.9285714285714286,
+      "recall": 0.43333333333333335
+    },
+    {
+      "frame_id": 186,
+      "tp": 12,
+      "fp": 2,
+      "fn": 18,
+      "num_predictions": 14,
+      "num_gt": 30,
+      "precision": 0.8571428571428571,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 187,
+      "tp": 13,
+      "fp": 2,
+      "fn": 17,
+      "num_predictions": 15,
+      "num_gt": 30,
+      "precision": 0.8666666666666667,
+      "recall": 0.43333333333333335
+    },
+    {
+      "frame_id": 188,
+      "tp": 13,
+      "fp": 1,
+      "fn": 17,
+      "num_predictions": 14,
+      "num_gt": 30,
+      "precision": 0.9285714285714286,
+      "recall": 0.43333333333333335
+    },
+    {
+      "frame_id": 189,
+      "tp": 12,
+      "fp": 0,
+      "fn": 18,
+      "num_predictions": 12,
+      "num_gt": 30,
+      "precision": 1.0,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 190,
+      "tp": 11,
+      "fp": 3,
+      "fn": 19,
+      "num_predictions": 14,
+      "num_gt": 30,
+      "precision": 0.7857142857142857,
+      "recall": 0.36666666666666664
+    },
+    {
+      "frame_id": 191,
+      "tp": 13,
+      "fp": 2,
+      "fn": 17,
+      "num_predictions": 15,
+      "num_gt": 30,
+      "precision": 0.8666666666666667,
+      "recall": 0.43333333333333335
+    },
+    {
+      "frame_id": 192,
+      "tp": 13,
+      "fp": 2,
+      "fn": 17,
+      "num_predictions": 15,
+      "num_gt": 30,
+      "precision": 0.8666666666666667,
+      "recall": 0.43333333333333335
+    },
+    {
+      "frame_id": 193,
+      "tp": 13,
+      "fp": 1,
+      "fn": 17,
+      "num_predictions": 14,
+      "num_gt": 30,
+      "precision": 0.9285714285714286,
+      "recall": 0.43333333333333335
+    },
+    {
+      "frame_id": 194,
+      "tp": 12,
+      "fp": 2,
+      "fn": 18,
+      "num_predictions": 14,
+      "num_gt": 30,
+      "precision": 0.8571428571428571,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 195,
+      "tp": 12,
+      "fp": 1,
+      "fn": 18,
+      "num_predictions": 13,
+      "num_gt": 30,
+      "precision": 0.9230769230769231,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 196,
+      "tp": 13,
+      "fp": 2,
+      "fn": 17,
+      "num_predictions": 15,
+      "num_gt": 30,
+      "precision": 0.8666666666666667,
+      "recall": 0.43333333333333335
+    },
+    {
+      "frame_id": 197,
+      "tp": 12,
+      "fp": 1,
+      "fn": 18,
+      "num_predictions": 13,
+      "num_gt": 30,
+      "precision": 0.9230769230769231,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 198,
+      "tp": 13,
+      "fp": 0,
+      "fn": 17,
+      "num_predictions": 13,
+      "num_gt": 30,
+      "precision": 1.0,
+      "recall": 0.43333333333333335
+    },
+    {
+      "frame_id": 199,
+      "tp": 12,
+      "fp": 2,
+      "fn": 19,
+      "num_predictions": 14,
+      "num_gt": 31,
+      "precision": 0.8571428571428571,
+      "recall": 0.3870967741935484
+    },
+    {
+      "frame_id": 200,
+      "tp": 13,
+      "fp": 4,
+      "fn": 18,
+      "num_predictions": 17,
+      "num_gt": 31,
+      "precision": 0.7647058823529411,
+      "recall": 0.41935483870967744
+    },
+    {
+      "frame_id": 201,
+      "tp": 12,
+      "fp": 2,
+      "fn": 19,
+      "num_predictions": 14,
+      "num_gt": 31,
+      "precision": 0.8571428571428571,
+      "recall": 0.3870967741935484
+    },
+    {
+      "frame_id": 202,
+      "tp": 12,
+      "fp": 1,
+      "fn": 19,
+      "num_predictions": 13,
+      "num_gt": 31,
+      "precision": 0.9230769230769231,
+      "recall": 0.3870967741935484
+    },
+    {
+      "frame_id": 203,
+      "tp": 12,
+      "fp": 1,
+      "fn": 19,
+      "num_predictions": 13,
+      "num_gt": 31,
+      "precision": 0.9230769230769231,
+      "recall": 0.3870967741935484
+    },
+    {
+      "frame_id": 204,
+      "tp": 11,
+      "fp": 1,
+      "fn": 20,
+      "num_predictions": 12,
+      "num_gt": 31,
+      "precision": 0.9166666666666666,
+      "recall": 0.3548387096774194
+    },
+    {
+      "frame_id": 205,
+      "tp": 12,
+      "fp": 1,
+      "fn": 19,
+      "num_predictions": 13,
+      "num_gt": 31,
+      "precision": 0.9230769230769231,
+      "recall": 0.3870967741935484
+    },
+    {
+      "frame_id": 206,
+      "tp": 12,
+      "fp": 1,
+      "fn": 19,
+      "num_predictions": 13,
+      "num_gt": 31,
+      "precision": 0.9230769230769231,
+      "recall": 0.3870967741935484
+    },
+    {
+      "frame_id": 207,
+      "tp": 10,
+      "fp": 4,
+      "fn": 20,
+      "num_predictions": 14,
+      "num_gt": 30,
+      "precision": 0.7142857142857143,
+      "recall": 0.3333333333333333
+    },
+    {
+      "frame_id": 208,
+      "tp": 12,
+      "fp": 3,
+      "fn": 19,
+      "num_predictions": 15,
+      "num_gt": 31,
+      "precision": 0.8,
+      "recall": 0.3870967741935484
+    },
+    {
+      "frame_id": 209,
+      "tp": 12,
+      "fp": 4,
+      "fn": 20,
+      "num_predictions": 16,
+      "num_gt": 32,
+      "precision": 0.75,
+      "recall": 0.375
+    },
+    {
+      "frame_id": 210,
+      "tp": 11,
+      "fp": 2,
+      "fn": 21,
+      "num_predictions": 13,
+      "num_gt": 32,
+      "precision": 0.8461538461538461,
+      "recall": 0.34375
+    },
+    {
+      "frame_id": 211,
+      "tp": 13,
+      "fp": 2,
+      "fn": 20,
+      "num_predictions": 15,
+      "num_gt": 33,
+      "precision": 0.8666666666666667,
+      "recall": 0.3939393939393939
+    },
+    {
+      "frame_id": 212,
+      "tp": 14,
+      "fp": 2,
+      "fn": 19,
+      "num_predictions": 16,
+      "num_gt": 33,
+      "precision": 0.875,
+      "recall": 0.42424242424242425
+    },
+    {
+      "frame_id": 213,
+      "tp": 13,
+      "fp": 3,
+      "fn": 20,
+      "num_predictions": 16,
+      "num_gt": 33,
+      "precision": 0.8125,
+      "recall": 0.3939393939393939
+    },
+    {
+      "frame_id": 214,
+      "tp": 13,
+      "fp": 3,
+      "fn": 20,
+      "num_predictions": 16,
+      "num_gt": 33,
+      "precision": 0.8125,
+      "recall": 0.3939393939393939
+    },
+    {
+      "frame_id": 215,
+      "tp": 13,
+      "fp": 4,
+      "fn": 20,
+      "num_predictions": 17,
+      "num_gt": 33,
+      "precision": 0.7647058823529411,
+      "recall": 0.3939393939393939
+    },
+    {
+      "frame_id": 216,
+      "tp": 13,
+      "fp": 3,
+      "fn": 20,
+      "num_predictions": 16,
+      "num_gt": 33,
+      "precision": 0.8125,
+      "recall": 0.3939393939393939
+    },
+    {
+      "frame_id": 217,
+      "tp": 12,
+      "fp": 3,
+      "fn": 21,
+      "num_predictions": 15,
+      "num_gt": 33,
+      "precision": 0.8,
+      "recall": 0.36363636363636365
+    },
+    {
+      "frame_id": 218,
+      "tp": 12,
+      "fp": 1,
+      "fn": 21,
+      "num_predictions": 13,
+      "num_gt": 33,
+      "precision": 0.9230769230769231,
+      "recall": 0.36363636363636365
+    },
+    {
+      "frame_id": 219,
+      "tp": 12,
+      "fp": 2,
+      "fn": 21,
+      "num_predictions": 14,
+      "num_gt": 33,
+      "precision": 0.8571428571428571,
+      "recall": 0.36363636363636365
+    },
+    {
+      "frame_id": 220,
+      "tp": 12,
+      "fp": 3,
+      "fn": 21,
+      "num_predictions": 15,
+      "num_gt": 33,
+      "precision": 0.8,
+      "recall": 0.36363636363636365
+    },
+    {
+      "frame_id": 221,
+      "tp": 12,
+      "fp": 2,
+      "fn": 21,
+      "num_predictions": 14,
+      "num_gt": 33,
+      "precision": 0.8571428571428571,
+      "recall": 0.36363636363636365
+    },
+    {
+      "frame_id": 222,
+      "tp": 13,
+      "fp": 2,
+      "fn": 20,
+      "num_predictions": 15,
+      "num_gt": 33,
+      "precision": 0.8666666666666667,
+      "recall": 0.3939393939393939
+    },
+    {
+      "frame_id": 223,
+      "tp": 13,
+      "fp": 2,
+      "fn": 20,
+      "num_predictions": 15,
+      "num_gt": 33,
+      "precision": 0.8666666666666667,
+      "recall": 0.3939393939393939
+    },
+    {
+      "frame_id": 224,
+      "tp": 14,
+      "fp": 4,
+      "fn": 19,
+      "num_predictions": 18,
+      "num_gt": 33,
+      "precision": 0.7777777777777778,
+      "recall": 0.42424242424242425
+    },
+    {
+      "frame_id": 225,
+      "tp": 14,
+      "fp": 6,
+      "fn": 19,
+      "num_predictions": 20,
+      "num_gt": 33,
+      "precision": 0.7,
+      "recall": 0.42424242424242425
+    },
+    {
+      "frame_id": 226,
+      "tp": 13,
+      "fp": 4,
+      "fn": 20,
+      "num_predictions": 17,
+      "num_gt": 33,
+      "precision": 0.7647058823529411,
+      "recall": 0.3939393939393939
+    },
+    {
+      "frame_id": 227,
+      "tp": 13,
+      "fp": 2,
+      "fn": 20,
+      "num_predictions": 15,
+      "num_gt": 33,
+      "precision": 0.8666666666666667,
+      "recall": 0.3939393939393939
+    },
+    {
+      "frame_id": 228,
+      "tp": 13,
+      "fp": 4,
+      "fn": 20,
+      "num_predictions": 17,
+      "num_gt": 33,
+      "precision": 0.7647058823529411,
+      "recall": 0.3939393939393939
+    },
+    {
+      "frame_id": 229,
+      "tp": 13,
+      "fp": 4,
+      "fn": 20,
+      "num_predictions": 17,
+      "num_gt": 33,
+      "precision": 0.7647058823529411,
+      "recall": 0.3939393939393939
+    },
+    {
+      "frame_id": 230,
+      "tp": 13,
+      "fp": 5,
+      "fn": 20,
+      "num_predictions": 18,
+      "num_gt": 33,
+      "precision": 0.7222222222222222,
+      "recall": 0.3939393939393939
+    },
+    {
+      "frame_id": 231,
+      "tp": 13,
+      "fp": 5,
+      "fn": 21,
+      "num_predictions": 18,
+      "num_gt": 34,
+      "precision": 0.7222222222222222,
+      "recall": 0.38235294117647056
+    },
+    {
+      "frame_id": 232,
+      "tp": 13,
+      "fp": 6,
+      "fn": 21,
+      "num_predictions": 19,
+      "num_gt": 34,
+      "precision": 0.6842105263157895,
+      "recall": 0.38235294117647056
+    },
+    {
+      "frame_id": 233,
+      "tp": 14,
+      "fp": 6,
+      "fn": 19,
+      "num_predictions": 20,
+      "num_gt": 33,
+      "precision": 0.7,
+      "recall": 0.42424242424242425
+    },
+    {
+      "frame_id": 234,
+      "tp": 14,
+      "fp": 3,
+      "fn": 19,
+      "num_predictions": 17,
+      "num_gt": 33,
+      "precision": 0.8235294117647058,
+      "recall": 0.42424242424242425
+    },
+    {
+      "frame_id": 235,
+      "tp": 16,
+      "fp": 3,
+      "fn": 17,
+      "num_predictions": 19,
+      "num_gt": 33,
+      "precision": 0.8421052631578947,
+      "recall": 0.48484848484848486
+    },
+    {
+      "frame_id": 236,
+      "tp": 18,
+      "fp": 3,
+      "fn": 15,
+      "num_predictions": 21,
+      "num_gt": 33,
+      "precision": 0.8571428571428571,
+      "recall": 0.5454545454545454
+    },
+    {
+      "frame_id": 237,
+      "tp": 16,
+      "fp": 7,
+      "fn": 17,
+      "num_predictions": 23,
+      "num_gt": 33,
+      "precision": 0.6956521739130435,
+      "recall": 0.48484848484848486
+    },
+    {
+      "frame_id": 238,
+      "tp": 16,
+      "fp": 5,
+      "fn": 17,
+      "num_predictions": 21,
+      "num_gt": 33,
+      "precision": 0.7619047619047619,
+      "recall": 0.48484848484848486
+    },
+    {
+      "frame_id": 239,
+      "tp": 15,
+      "fp": 6,
+      "fn": 18,
+      "num_predictions": 21,
+      "num_gt": 33,
+      "precision": 0.7142857142857143,
+      "recall": 0.45454545454545453
+    },
+    {
+      "frame_id": 240,
+      "tp": 16,
+      "fp": 4,
+      "fn": 17,
+      "num_predictions": 20,
+      "num_gt": 33,
+      "precision": 0.8,
+      "recall": 0.48484848484848486
+    },
+    {
+      "frame_id": 241,
+      "tp": 14,
+      "fp": 6,
+      "fn": 19,
+      "num_predictions": 20,
+      "num_gt": 33,
+      "precision": 0.7,
+      "recall": 0.42424242424242425
+    },
+    {
+      "frame_id": 242,
+      "tp": 15,
+      "fp": 3,
+      "fn": 18,
+      "num_predictions": 18,
+      "num_gt": 33,
+      "precision": 0.8333333333333334,
+      "recall": 0.45454545454545453
+    },
+    {
+      "frame_id": 243,
+      "tp": 15,
+      "fp": 4,
+      "fn": 18,
+      "num_predictions": 19,
+      "num_gt": 33,
+      "precision": 0.7894736842105263,
+      "recall": 0.45454545454545453
+    },
+    {
+      "frame_id": 244,
+      "tp": 16,
+      "fp": 7,
+      "fn": 17,
+      "num_predictions": 23,
+      "num_gt": 33,
+      "precision": 0.6956521739130435,
+      "recall": 0.48484848484848486
+    },
+    {
+      "frame_id": 245,
+      "tp": 16,
+      "fp": 4,
+      "fn": 17,
+      "num_predictions": 20,
+      "num_gt": 33,
+      "precision": 0.8,
+      "recall": 0.48484848484848486
+    },
+    {
+      "frame_id": 246,
+      "tp": 16,
+      "fp": 3,
+      "fn": 17,
+      "num_predictions": 19,
+      "num_gt": 33,
+      "precision": 0.8421052631578947,
+      "recall": 0.48484848484848486
+    },
+    {
+      "frame_id": 247,
+      "tp": 15,
+      "fp": 3,
+      "fn": 18,
+      "num_predictions": 18,
+      "num_gt": 33,
+      "precision": 0.8333333333333334,
+      "recall": 0.45454545454545453
+    },
+    {
+      "frame_id": 248,
+      "tp": 16,
+      "fp": 8,
+      "fn": 17,
+      "num_predictions": 24,
+      "num_gt": 33,
+      "precision": 0.6666666666666666,
+      "recall": 0.48484848484848486
+    },
+    {
+      "frame_id": 249,
+      "tp": 16,
+      "fp": 7,
+      "fn": 17,
+      "num_predictions": 23,
+      "num_gt": 33,
+      "precision": 0.6956521739130435,
+      "recall": 0.48484848484848486
+    },
+    {
+      "frame_id": 250,
+      "tp": 13,
+      "fp": 4,
+      "fn": 21,
+      "num_predictions": 17,
+      "num_gt": 34,
+      "precision": 0.7647058823529411,
+      "recall": 0.38235294117647056
+    },
+    {
+      "frame_id": 251,
+      "tp": 15,
+      "fp": 4,
+      "fn": 19,
+      "num_predictions": 19,
+      "num_gt": 34,
+      "precision": 0.7894736842105263,
+      "recall": 0.4411764705882353
+    },
+    {
+      "frame_id": 252,
+      "tp": 15,
+      "fp": 4,
+      "fn": 19,
+      "num_predictions": 19,
+      "num_gt": 34,
+      "precision": 0.7894736842105263,
+      "recall": 0.4411764705882353
+    },
+    {
+      "frame_id": 253,
+      "tp": 13,
+      "fp": 5,
+      "fn": 21,
+      "num_predictions": 18,
+      "num_gt": 34,
+      "precision": 0.7222222222222222,
+      "recall": 0.38235294117647056
+    },
+    {
+      "frame_id": 254,
+      "tp": 15,
+      "fp": 3,
+      "fn": 19,
+      "num_predictions": 18,
+      "num_gt": 34,
+      "precision": 0.8333333333333334,
+      "recall": 0.4411764705882353
+    },
+    {
+      "frame_id": 255,
+      "tp": 14,
+      "fp": 4,
+      "fn": 20,
+      "num_predictions": 18,
+      "num_gt": 34,
+      "precision": 0.7777777777777778,
+      "recall": 0.4117647058823529
+    },
+    {
+      "frame_id": 256,
+      "tp": 13,
+      "fp": 3,
+      "fn": 21,
+      "num_predictions": 16,
+      "num_gt": 34,
+      "precision": 0.8125,
+      "recall": 0.38235294117647056
+    },
+    {
+      "frame_id": 257,
+      "tp": 14,
+      "fp": 3,
+      "fn": 20,
+      "num_predictions": 17,
+      "num_gt": 34,
+      "precision": 0.8235294117647058,
+      "recall": 0.4117647058823529
+    },
+    {
+      "frame_id": 258,
+      "tp": 14,
+      "fp": 3,
+      "fn": 20,
+      "num_predictions": 17,
+      "num_gt": 34,
+      "precision": 0.8235294117647058,
+      "recall": 0.4117647058823529
+    },
+    {
+      "frame_id": 259,
+      "tp": 15,
+      "fp": 3,
+      "fn": 19,
+      "num_predictions": 18,
+      "num_gt": 34,
+      "precision": 0.8333333333333334,
+      "recall": 0.4411764705882353
+    },
+    {
+      "frame_id": 260,
+      "tp": 16,
+      "fp": 4,
+      "fn": 18,
+      "num_predictions": 20,
+      "num_gt": 34,
+      "precision": 0.8,
+      "recall": 0.47058823529411764
+    },
+    {
+      "frame_id": 261,
+      "tp": 15,
+      "fp": 3,
+      "fn": 19,
+      "num_predictions": 18,
+      "num_gt": 34,
+      "precision": 0.8333333333333334,
+      "recall": 0.4411764705882353
+    },
+    {
+      "frame_id": 262,
+      "tp": 15,
+      "fp": 5,
+      "fn": 19,
+      "num_predictions": 20,
+      "num_gt": 34,
+      "precision": 0.75,
+      "recall": 0.4411764705882353
+    },
+    {
+      "frame_id": 263,
+      "tp": 14,
+      "fp": 4,
+      "fn": 20,
+      "num_predictions": 18,
+      "num_gt": 34,
+      "precision": 0.7777777777777778,
+      "recall": 0.4117647058823529
+    },
+    {
+      "frame_id": 264,
+      "tp": 17,
+      "fp": 5,
+      "fn": 17,
+      "num_predictions": 22,
+      "num_gt": 34,
+      "precision": 0.7727272727272727,
+      "recall": 0.5
+    },
+    {
+      "frame_id": 265,
+      "tp": 14,
+      "fp": 5,
+      "fn": 20,
+      "num_predictions": 19,
+      "num_gt": 34,
+      "precision": 0.7368421052631579,
+      "recall": 0.4117647058823529
+    },
+    {
+      "frame_id": 266,
+      "tp": 14,
+      "fp": 8,
+      "fn": 20,
+      "num_predictions": 22,
+      "num_gt": 34,
+      "precision": 0.6363636363636364,
+      "recall": 0.4117647058823529
+    },
+    {
+      "frame_id": 267,
+      "tp": 13,
+      "fp": 6,
+      "fn": 21,
+      "num_predictions": 19,
+      "num_gt": 34,
+      "precision": 0.6842105263157895,
+      "recall": 0.38235294117647056
+    },
+    {
+      "frame_id": 268,
+      "tp": 14,
+      "fp": 4,
+      "fn": 20,
+      "num_predictions": 18,
+      "num_gt": 34,
+      "precision": 0.7777777777777778,
+      "recall": 0.4117647058823529
+    },
+    {
+      "frame_id": 269,
+      "tp": 15,
+      "fp": 4,
+      "fn": 19,
+      "num_predictions": 19,
+      "num_gt": 34,
+      "precision": 0.7894736842105263,
+      "recall": 0.4411764705882353
+    },
+    {
+      "frame_id": 270,
+      "tp": 15,
+      "fp": 5,
+      "fn": 19,
+      "num_predictions": 20,
+      "num_gt": 34,
+      "precision": 0.75,
+      "recall": 0.4411764705882353
+    },
+    {
+      "frame_id": 271,
+      "tp": 15,
+      "fp": 3,
+      "fn": 19,
+      "num_predictions": 18,
+      "num_gt": 34,
+      "precision": 0.8333333333333334,
+      "recall": 0.4411764705882353
+    },
+    {
+      "frame_id": 272,
+      "tp": 14,
+      "fp": 2,
+      "fn": 20,
+      "num_predictions": 16,
+      "num_gt": 34,
+      "precision": 0.875,
+      "recall": 0.4117647058823529
+    },
+    {
+      "frame_id": 273,
+      "tp": 12,
+      "fp": 3,
+      "fn": 22,
+      "num_predictions": 15,
+      "num_gt": 34,
+      "precision": 0.8,
+      "recall": 0.35294117647058826
+    },
+    {
+      "frame_id": 274,
+      "tp": 12,
+      "fp": 3,
+      "fn": 22,
+      "num_predictions": 15,
+      "num_gt": 34,
+      "precision": 0.8,
+      "recall": 0.35294117647058826
+    },
+    {
+      "frame_id": 275,
+      "tp": 15,
+      "fp": 5,
+      "fn": 19,
+      "num_predictions": 20,
+      "num_gt": 34,
+      "precision": 0.75,
+      "recall": 0.4411764705882353
+    },
+    {
+      "frame_id": 276,
+      "tp": 13,
+      "fp": 8,
+      "fn": 21,
+      "num_predictions": 21,
+      "num_gt": 34,
+      "precision": 0.6190476190476191,
+      "recall": 0.38235294117647056
+    },
+    {
+      "frame_id": 277,
+      "tp": 15,
+      "fp": 5,
+      "fn": 19,
+      "num_predictions": 20,
+      "num_gt": 34,
+      "precision": 0.75,
+      "recall": 0.4411764705882353
+    },
+    {
+      "frame_id": 278,
+      "tp": 15,
+      "fp": 3,
+      "fn": 19,
+      "num_predictions": 18,
+      "num_gt": 34,
+      "precision": 0.8333333333333334,
+      "recall": 0.4411764705882353
+    },
+    {
+      "frame_id": 279,
+      "tp": 15,
+      "fp": 4,
+      "fn": 19,
+      "num_predictions": 19,
+      "num_gt": 34,
+      "precision": 0.7894736842105263,
+      "recall": 0.4411764705882353
+    },
+    {
+      "frame_id": 280,
+      "tp": 16,
+      "fp": 3,
+      "fn": 18,
+      "num_predictions": 19,
+      "num_gt": 34,
+      "precision": 0.8421052631578947,
+      "recall": 0.47058823529411764
+    },
+    {
+      "frame_id": 281,
+      "tp": 15,
+      "fp": 4,
+      "fn": 18,
+      "num_predictions": 19,
+      "num_gt": 33,
+      "precision": 0.7894736842105263,
+      "recall": 0.45454545454545453
+    },
+    {
+      "frame_id": 282,
+      "tp": 16,
+      "fp": 5,
+      "fn": 17,
+      "num_predictions": 21,
+      "num_gt": 33,
+      "precision": 0.7619047619047619,
+      "recall": 0.48484848484848486
+    },
+    {
+      "frame_id": 283,
+      "tp": 16,
+      "fp": 5,
+      "fn": 17,
+      "num_predictions": 21,
+      "num_gt": 33,
+      "precision": 0.7619047619047619,
+      "recall": 0.48484848484848486
+    },
+    {
+      "frame_id": 284,
+      "tp": 15,
+      "fp": 4,
+      "fn": 18,
+      "num_predictions": 19,
+      "num_gt": 33,
+      "precision": 0.7894736842105263,
+      "recall": 0.45454545454545453
+    },
+    {
+      "frame_id": 285,
+      "tp": 16,
+      "fp": 5,
+      "fn": 17,
+      "num_predictions": 21,
+      "num_gt": 33,
+      "precision": 0.7619047619047619,
+      "recall": 0.48484848484848486
+    },
+    {
+      "frame_id": 286,
+      "tp": 15,
+      "fp": 5,
+      "fn": 18,
+      "num_predictions": 20,
+      "num_gt": 33,
+      "precision": 0.75,
+      "recall": 0.45454545454545453
+    },
+    {
+      "frame_id": 287,
+      "tp": 16,
+      "fp": 5,
+      "fn": 17,
+      "num_predictions": 21,
+      "num_gt": 33,
+      "precision": 0.7619047619047619,
+      "recall": 0.48484848484848486
+    },
+    {
+      "frame_id": 288,
+      "tp": 15,
+      "fp": 5,
+      "fn": 18,
+      "num_predictions": 20,
+      "num_gt": 33,
+      "precision": 0.75,
+      "recall": 0.45454545454545453
+    },
+    {
+      "frame_id": 289,
+      "tp": 16,
+      "fp": 6,
+      "fn": 17,
+      "num_predictions": 22,
+      "num_gt": 33,
+      "precision": 0.7272727272727273,
+      "recall": 0.48484848484848486
+    },
+    {
+      "frame_id": 290,
+      "tp": 15,
+      "fp": 4,
+      "fn": 18,
+      "num_predictions": 19,
+      "num_gt": 33,
+      "precision": 0.7894736842105263,
+      "recall": 0.45454545454545453
+    },
+    {
+      "frame_id": 291,
+      "tp": 16,
+      "fp": 4,
+      "fn": 17,
+      "num_predictions": 20,
+      "num_gt": 33,
+      "precision": 0.8,
+      "recall": 0.48484848484848486
+    },
+    {
+      "frame_id": 292,
+      "tp": 15,
+      "fp": 3,
+      "fn": 18,
+      "num_predictions": 18,
+      "num_gt": 33,
+      "precision": 0.8333333333333334,
+      "recall": 0.45454545454545453
+    },
+    {
+      "frame_id": 293,
+      "tp": 16,
+      "fp": 4,
+      "fn": 17,
+      "num_predictions": 20,
+      "num_gt": 33,
+      "precision": 0.8,
+      "recall": 0.48484848484848486
+    },
+    {
+      "frame_id": 294,
+      "tp": 15,
+      "fp": 3,
+      "fn": 18,
+      "num_predictions": 18,
+      "num_gt": 33,
+      "precision": 0.8333333333333334,
+      "recall": 0.45454545454545453
+    },
+    {
+      "frame_id": 295,
+      "tp": 15,
+      "fp": 4,
+      "fn": 18,
+      "num_predictions": 19,
+      "num_gt": 33,
+      "precision": 0.7894736842105263,
+      "recall": 0.45454545454545453
+    },
+    {
+      "frame_id": 296,
+      "tp": 13,
+      "fp": 5,
+      "fn": 20,
+      "num_predictions": 18,
+      "num_gt": 33,
+      "precision": 0.7222222222222222,
+      "recall": 0.3939393939393939
+    },
+    {
+      "frame_id": 297,
+      "tp": 14,
+      "fp": 6,
+      "fn": 19,
+      "num_predictions": 20,
+      "num_gt": 33,
+      "precision": 0.7,
+      "recall": 0.42424242424242425
+    },
+    {
+      "frame_id": 298,
+      "tp": 14,
+      "fp": 6,
+      "fn": 19,
+      "num_predictions": 20,
+      "num_gt": 33,
+      "precision": 0.7,
+      "recall": 0.42424242424242425
+    },
+    {
+      "frame_id": 299,
+      "tp": 15,
+      "fp": 7,
+      "fn": 18,
+      "num_predictions": 22,
+      "num_gt": 33,
+      "precision": 0.6818181818181818,
+      "recall": 0.45454545454545453
+    },
+    {
+      "frame_id": 300,
+      "tp": 13,
+      "fp": 8,
+      "fn": 20,
+      "num_predictions": 21,
+      "num_gt": 33,
+      "precision": 0.6190476190476191,
+      "recall": 0.3939393939393939
+    },
+    {
+      "frame_id": 301,
+      "tp": 14,
+      "fp": 9,
+      "fn": 19,
+      "num_predictions": 23,
+      "num_gt": 33,
+      "precision": 0.6086956521739131,
+      "recall": 0.42424242424242425
+    },
+    {
+      "frame_id": 302,
+      "tp": 13,
+      "fp": 7,
+      "fn": 20,
+      "num_predictions": 20,
+      "num_gt": 33,
+      "precision": 0.65,
+      "recall": 0.3939393939393939
+    },
+    {
+      "frame_id": 303,
+      "tp": 13,
+      "fp": 7,
+      "fn": 21,
+      "num_predictions": 20,
+      "num_gt": 34,
+      "precision": 0.65,
+      "recall": 0.38235294117647056
+    },
+    {
+      "frame_id": 304,
+      "tp": 14,
+      "fp": 7,
+      "fn": 20,
+      "num_predictions": 21,
+      "num_gt": 34,
+      "precision": 0.6666666666666666,
+      "recall": 0.4117647058823529
+    },
+    {
+      "frame_id": 305,
+      "tp": 13,
+      "fp": 6,
+      "fn": 21,
+      "num_predictions": 19,
+      "num_gt": 34,
+      "precision": 0.6842105263157895,
+      "recall": 0.38235294117647056
+    },
+    {
+      "frame_id": 306,
+      "tp": 13,
+      "fp": 5,
+      "fn": 21,
+      "num_predictions": 18,
+      "num_gt": 34,
+      "precision": 0.7222222222222222,
+      "recall": 0.38235294117647056
+    },
+    {
+      "frame_id": 307,
+      "tp": 15,
+      "fp": 3,
+      "fn": 18,
+      "num_predictions": 18,
+      "num_gt": 33,
+      "precision": 0.8333333333333334,
+      "recall": 0.45454545454545453
+    },
+    {
+      "frame_id": 308,
+      "tp": 16,
+      "fp": 3,
+      "fn": 17,
+      "num_predictions": 19,
+      "num_gt": 33,
+      "precision": 0.8421052631578947,
+      "recall": 0.48484848484848486
+    },
+    {
+      "frame_id": 309,
+      "tp": 15,
+      "fp": 4,
+      "fn": 18,
+      "num_predictions": 19,
+      "num_gt": 33,
+      "precision": 0.7894736842105263,
+      "recall": 0.45454545454545453
+    },
+    {
+      "frame_id": 310,
+      "tp": 15,
+      "fp": 4,
+      "fn": 18,
+      "num_predictions": 19,
+      "num_gt": 33,
+      "precision": 0.7894736842105263,
+      "recall": 0.45454545454545453
+    },
+    {
+      "frame_id": 311,
+      "tp": 15,
+      "fp": 5,
+      "fn": 19,
+      "num_predictions": 20,
+      "num_gt": 34,
+      "precision": 0.75,
+      "recall": 0.4411764705882353
+    },
+    {
+      "frame_id": 312,
+      "tp": 14,
+      "fp": 3,
+      "fn": 20,
+      "num_predictions": 17,
+      "num_gt": 34,
+      "precision": 0.8235294117647058,
+      "recall": 0.4117647058823529
+    },
+    {
+      "frame_id": 313,
+      "tp": 14,
+      "fp": 3,
+      "fn": 20,
+      "num_predictions": 17,
+      "num_gt": 34,
+      "precision": 0.8235294117647058,
+      "recall": 0.4117647058823529
+    },
+    {
+      "frame_id": 314,
+      "tp": 15,
+      "fp": 4,
+      "fn": 19,
+      "num_predictions": 19,
+      "num_gt": 34,
+      "precision": 0.7894736842105263,
+      "recall": 0.4411764705882353
+    },
+    {
+      "frame_id": 315,
+      "tp": 16,
+      "fp": 4,
+      "fn": 18,
+      "num_predictions": 20,
+      "num_gt": 34,
+      "precision": 0.8,
+      "recall": 0.47058823529411764
+    },
+    {
+      "frame_id": 316,
+      "tp": 17,
+      "fp": 6,
+      "fn": 16,
+      "num_predictions": 23,
+      "num_gt": 33,
+      "precision": 0.7391304347826086,
+      "recall": 0.5151515151515151
+    },
+    {
+      "frame_id": 317,
+      "tp": 16,
+      "fp": 6,
+      "fn": 17,
+      "num_predictions": 22,
+      "num_gt": 33,
+      "precision": 0.7272727272727273,
+      "recall": 0.48484848484848486
+    },
+    {
+      "frame_id": 318,
+      "tp": 16,
+      "fp": 4,
+      "fn": 17,
+      "num_predictions": 20,
+      "num_gt": 33,
+      "precision": 0.8,
+      "recall": 0.48484848484848486
+    },
+    {
+      "frame_id": 319,
+      "tp": 19,
+      "fp": 4,
+      "fn": 14,
+      "num_predictions": 23,
+      "num_gt": 33,
+      "precision": 0.8260869565217391,
+      "recall": 0.5757575757575758
+    },
+    {
+      "frame_id": 320,
+      "tp": 16,
+      "fp": 7,
+      "fn": 17,
+      "num_predictions": 23,
+      "num_gt": 33,
+      "precision": 0.6956521739130435,
+      "recall": 0.48484848484848486
+    },
+    {
+      "frame_id": 321,
+      "tp": 13,
+      "fp": 7,
+      "fn": 20,
+      "num_predictions": 20,
+      "num_gt": 33,
+      "precision": 0.65,
+      "recall": 0.3939393939393939
+    },
+    {
+      "frame_id": 322,
+      "tp": 14,
+      "fp": 6,
+      "fn": 19,
+      "num_predictions": 20,
+      "num_gt": 33,
+      "precision": 0.7,
+      "recall": 0.42424242424242425
+    },
+    {
+      "frame_id": 323,
+      "tp": 15,
+      "fp": 7,
+      "fn": 18,
+      "num_predictions": 22,
+      "num_gt": 33,
+      "precision": 0.6818181818181818,
+      "recall": 0.45454545454545453
+    },
+    {
+      "frame_id": 324,
+      "tp": 14,
+      "fp": 8,
+      "fn": 19,
+      "num_predictions": 22,
+      "num_gt": 33,
+      "precision": 0.6363636363636364,
+      "recall": 0.42424242424242425
+    },
+    {
+      "frame_id": 325,
+      "tp": 13,
+      "fp": 6,
+      "fn": 20,
+      "num_predictions": 19,
+      "num_gt": 33,
+      "precision": 0.6842105263157895,
+      "recall": 0.3939393939393939
+    },
+    {
+      "frame_id": 326,
+      "tp": 13,
+      "fp": 6,
+      "fn": 20,
+      "num_predictions": 19,
+      "num_gt": 33,
+      "precision": 0.6842105263157895,
+      "recall": 0.3939393939393939
+    },
+    {
+      "frame_id": 327,
+      "tp": 14,
+      "fp": 7,
+      "fn": 19,
+      "num_predictions": 21,
+      "num_gt": 33,
+      "precision": 0.6666666666666666,
+      "recall": 0.42424242424242425
+    },
+    {
+      "frame_id": 328,
+      "tp": 14,
+      "fp": 7,
+      "fn": 19,
+      "num_predictions": 21,
+      "num_gt": 33,
+      "precision": 0.6666666666666666,
+      "recall": 0.42424242424242425
+    },
+    {
+      "frame_id": 329,
+      "tp": 13,
+      "fp": 5,
+      "fn": 20,
+      "num_predictions": 18,
+      "num_gt": 33,
+      "precision": 0.7222222222222222,
+      "recall": 0.3939393939393939
+    },
+    {
+      "frame_id": 330,
+      "tp": 14,
+      "fp": 8,
+      "fn": 19,
+      "num_predictions": 22,
+      "num_gt": 33,
+      "precision": 0.6363636363636364,
+      "recall": 0.42424242424242425
+    },
+    {
+      "frame_id": 331,
+      "tp": 15,
+      "fp": 9,
+      "fn": 18,
+      "num_predictions": 24,
+      "num_gt": 33,
+      "precision": 0.625,
+      "recall": 0.45454545454545453
+    },
+    {
+      "frame_id": 332,
+      "tp": 13,
+      "fp": 9,
+      "fn": 20,
+      "num_predictions": 22,
+      "num_gt": 33,
+      "precision": 0.5909090909090909,
+      "recall": 0.3939393939393939
+    },
+    {
+      "frame_id": 333,
+      "tp": 14,
+      "fp": 8,
+      "fn": 19,
+      "num_predictions": 22,
+      "num_gt": 33,
+      "precision": 0.6363636363636364,
+      "recall": 0.42424242424242425
+    },
+    {
+      "frame_id": 334,
+      "tp": 15,
+      "fp": 8,
+      "fn": 18,
+      "num_predictions": 23,
+      "num_gt": 33,
+      "precision": 0.6521739130434783,
+      "recall": 0.45454545454545453
+    },
+    {
+      "frame_id": 335,
+      "tp": 14,
+      "fp": 7,
+      "fn": 20,
+      "num_predictions": 21,
+      "num_gt": 34,
+      "precision": 0.6666666666666666,
+      "recall": 0.4117647058823529
+    },
+    {
+      "frame_id": 336,
+      "tp": 15,
+      "fp": 9,
+      "fn": 19,
+      "num_predictions": 24,
+      "num_gt": 34,
+      "precision": 0.625,
+      "recall": 0.4411764705882353
+    },
+    {
+      "frame_id": 337,
+      "tp": 13,
+      "fp": 10,
+      "fn": 20,
+      "num_predictions": 23,
+      "num_gt": 33,
+      "precision": 0.5652173913043478,
+      "recall": 0.3939393939393939
+    },
+    {
+      "frame_id": 338,
+      "tp": 15,
+      "fp": 6,
+      "fn": 18,
+      "num_predictions": 21,
+      "num_gt": 33,
+      "precision": 0.7142857142857143,
+      "recall": 0.45454545454545453
+    },
+    {
+      "frame_id": 339,
+      "tp": 14,
+      "fp": 7,
+      "fn": 19,
+      "num_predictions": 21,
+      "num_gt": 33,
+      "precision": 0.6666666666666666,
+      "recall": 0.42424242424242425
+    },
+    {
+      "frame_id": 340,
+      "tp": 14,
+      "fp": 9,
+      "fn": 19,
+      "num_predictions": 23,
+      "num_gt": 33,
+      "precision": 0.6086956521739131,
+      "recall": 0.42424242424242425
+    },
+    {
+      "frame_id": 341,
+      "tp": 14,
+      "fp": 9,
+      "fn": 19,
+      "num_predictions": 23,
+      "num_gt": 33,
+      "precision": 0.6086956521739131,
+      "recall": 0.42424242424242425
+    },
+    {
+      "frame_id": 342,
+      "tp": 10,
+      "fp": 10,
+      "fn": 23,
+      "num_predictions": 20,
+      "num_gt": 33,
+      "precision": 0.5,
+      "recall": 0.30303030303030304
+    },
+    {
+      "frame_id": 343,
+      "tp": 11,
+      "fp": 9,
+      "fn": 22,
+      "num_predictions": 20,
+      "num_gt": 33,
+      "precision": 0.55,
+      "recall": 0.3333333333333333
+    },
+    {
+      "frame_id": 344,
+      "tp": 12,
+      "fp": 8,
+      "fn": 21,
+      "num_predictions": 20,
+      "num_gt": 33,
+      "precision": 0.6,
+      "recall": 0.36363636363636365
+    },
+    {
+      "frame_id": 345,
+      "tp": 10,
+      "fp": 10,
+      "fn": 23,
+      "num_predictions": 20,
+      "num_gt": 33,
+      "precision": 0.5,
+      "recall": 0.30303030303030304
+    },
+    {
+      "frame_id": 346,
+      "tp": 10,
+      "fp": 8,
+      "fn": 23,
+      "num_predictions": 18,
+      "num_gt": 33,
+      "precision": 0.5555555555555556,
+      "recall": 0.30303030303030304
+    },
+    {
+      "frame_id": 347,
+      "tp": 10,
+      "fp": 7,
+      "fn": 23,
+      "num_predictions": 17,
+      "num_gt": 33,
+      "precision": 0.5882352941176471,
+      "recall": 0.30303030303030304
+    },
+    {
+      "frame_id": 348,
+      "tp": 10,
+      "fp": 9,
+      "fn": 23,
+      "num_predictions": 19,
+      "num_gt": 33,
+      "precision": 0.5263157894736842,
+      "recall": 0.30303030303030304
+    },
+    {
+      "frame_id": 349,
+      "tp": 10,
+      "fp": 10,
+      "fn": 23,
+      "num_predictions": 20,
+      "num_gt": 33,
+      "precision": 0.5,
+      "recall": 0.30303030303030304
+    },
+    {
+      "frame_id": 350,
+      "tp": 12,
+      "fp": 6,
+      "fn": 22,
+      "num_predictions": 18,
+      "num_gt": 34,
+      "precision": 0.6666666666666666,
+      "recall": 0.35294117647058826
+    },
+    {
+      "frame_id": 351,
+      "tp": 11,
+      "fp": 5,
+      "fn": 23,
+      "num_predictions": 16,
+      "num_gt": 34,
+      "precision": 0.6875,
+      "recall": 0.3235294117647059
+    },
+    {
+      "frame_id": 352,
+      "tp": 11,
+      "fp": 7,
+      "fn": 23,
+      "num_predictions": 18,
+      "num_gt": 34,
+      "precision": 0.6111111111111112,
+      "recall": 0.3235294117647059
+    },
+    {
+      "frame_id": 353,
+      "tp": 12,
+      "fp": 4,
+      "fn": 23,
+      "num_predictions": 16,
+      "num_gt": 35,
+      "precision": 0.75,
+      "recall": 0.34285714285714286
+    },
+    {
+      "frame_id": 354,
+      "tp": 13,
+      "fp": 6,
+      "fn": 22,
+      "num_predictions": 19,
+      "num_gt": 35,
+      "precision": 0.6842105263157895,
+      "recall": 0.37142857142857144
+    },
+    {
+      "frame_id": 355,
+      "tp": 14,
+      "fp": 4,
+      "fn": 21,
+      "num_predictions": 18,
+      "num_gt": 35,
+      "precision": 0.7777777777777778,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 356,
+      "tp": 14,
+      "fp": 3,
+      "fn": 21,
+      "num_predictions": 17,
+      "num_gt": 35,
+      "precision": 0.8235294117647058,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 357,
+      "tp": 13,
+      "fp": 3,
+      "fn": 22,
+      "num_predictions": 16,
+      "num_gt": 35,
+      "precision": 0.8125,
+      "recall": 0.37142857142857144
+    },
+    {
+      "frame_id": 358,
+      "tp": 14,
+      "fp": 4,
+      "fn": 21,
+      "num_predictions": 18,
+      "num_gt": 35,
+      "precision": 0.7777777777777778,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 359,
+      "tp": 15,
+      "fp": 5,
+      "fn": 20,
+      "num_predictions": 20,
+      "num_gt": 35,
+      "precision": 0.75,
+      "recall": 0.42857142857142855
+    },
+    {
+      "frame_id": 360,
+      "tp": 14,
+      "fp": 6,
+      "fn": 21,
+      "num_predictions": 20,
+      "num_gt": 35,
+      "precision": 0.7,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 361,
+      "tp": 13,
+      "fp": 5,
+      "fn": 22,
+      "num_predictions": 18,
+      "num_gt": 35,
+      "precision": 0.7222222222222222,
+      "recall": 0.37142857142857144
+    },
+    {
+      "frame_id": 362,
+      "tp": 13,
+      "fp": 8,
+      "fn": 22,
+      "num_predictions": 21,
+      "num_gt": 35,
+      "precision": 0.6190476190476191,
+      "recall": 0.37142857142857144
+    },
+    {
+      "frame_id": 363,
+      "tp": 13,
+      "fp": 6,
+      "fn": 22,
+      "num_predictions": 19,
+      "num_gt": 35,
+      "precision": 0.6842105263157895,
+      "recall": 0.37142857142857144
+    },
+    {
+      "frame_id": 364,
+      "tp": 14,
+      "fp": 5,
+      "fn": 21,
+      "num_predictions": 19,
+      "num_gt": 35,
+      "precision": 0.7368421052631579,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 365,
+      "tp": 14,
+      "fp": 7,
+      "fn": 21,
+      "num_predictions": 21,
+      "num_gt": 35,
+      "precision": 0.6666666666666666,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 366,
+      "tp": 13,
+      "fp": 5,
+      "fn": 22,
+      "num_predictions": 18,
+      "num_gt": 35,
+      "precision": 0.7222222222222222,
+      "recall": 0.37142857142857144
+    },
+    {
+      "frame_id": 367,
+      "tp": 11,
+      "fp": 5,
+      "fn": 24,
+      "num_predictions": 16,
+      "num_gt": 35,
+      "precision": 0.6875,
+      "recall": 0.3142857142857143
+    },
+    {
+      "frame_id": 368,
+      "tp": 13,
+      "fp": 4,
+      "fn": 22,
+      "num_predictions": 17,
+      "num_gt": 35,
+      "precision": 0.7647058823529411,
+      "recall": 0.37142857142857144
+    },
+    {
+      "frame_id": 369,
+      "tp": 14,
+      "fp": 7,
+      "fn": 21,
+      "num_predictions": 21,
+      "num_gt": 35,
+      "precision": 0.6666666666666666,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 370,
+      "tp": 15,
+      "fp": 5,
+      "fn": 20,
+      "num_predictions": 20,
+      "num_gt": 35,
+      "precision": 0.75,
+      "recall": 0.42857142857142855
+    },
+    {
+      "frame_id": 371,
+      "tp": 12,
+      "fp": 6,
+      "fn": 24,
+      "num_predictions": 18,
+      "num_gt": 36,
+      "precision": 0.6666666666666666,
+      "recall": 0.3333333333333333
+    },
+    {
+      "frame_id": 372,
+      "tp": 12,
+      "fp": 5,
+      "fn": 24,
+      "num_predictions": 17,
+      "num_gt": 36,
+      "precision": 0.7058823529411765,
+      "recall": 0.3333333333333333
+    },
+    {
+      "frame_id": 373,
+      "tp": 10,
+      "fp": 7,
+      "fn": 26,
+      "num_predictions": 17,
+      "num_gt": 36,
+      "precision": 0.5882352941176471,
+      "recall": 0.2777777777777778
+    },
+    {
+      "frame_id": 374,
+      "tp": 12,
+      "fp": 9,
+      "fn": 23,
+      "num_predictions": 21,
+      "num_gt": 35,
+      "precision": 0.5714285714285714,
+      "recall": 0.34285714285714286
+    },
+    {
+      "frame_id": 375,
+      "tp": 11,
+      "fp": 6,
+      "fn": 24,
+      "num_predictions": 17,
+      "num_gt": 35,
+      "precision": 0.6470588235294118,
+      "recall": 0.3142857142857143
+    },
+    {
+      "frame_id": 376,
+      "tp": 11,
+      "fp": 8,
+      "fn": 24,
+      "num_predictions": 19,
+      "num_gt": 35,
+      "precision": 0.5789473684210527,
+      "recall": 0.3142857142857143
+    },
+    {
+      "frame_id": 377,
+      "tp": 10,
+      "fp": 6,
+      "fn": 24,
+      "num_predictions": 16,
+      "num_gt": 34,
+      "precision": 0.625,
+      "recall": 0.29411764705882354
+    },
+    {
+      "frame_id": 378,
+      "tp": 11,
+      "fp": 4,
+      "fn": 23,
+      "num_predictions": 15,
+      "num_gt": 34,
+      "precision": 0.7333333333333333,
+      "recall": 0.3235294117647059
+    },
+    {
+      "frame_id": 379,
+      "tp": 10,
+      "fp": 5,
+      "fn": 24,
+      "num_predictions": 15,
+      "num_gt": 34,
+      "precision": 0.6666666666666666,
+      "recall": 0.29411764705882354
+    },
+    {
+      "frame_id": 380,
+      "tp": 10,
+      "fp": 2,
+      "fn": 24,
+      "num_predictions": 12,
+      "num_gt": 34,
+      "precision": 0.8333333333333334,
+      "recall": 0.29411764705882354
+    },
+    {
+      "frame_id": 381,
+      "tp": 9,
+      "fp": 3,
+      "fn": 25,
+      "num_predictions": 12,
+      "num_gt": 34,
+      "precision": 0.75,
+      "recall": 0.2647058823529412
+    },
+    {
+      "frame_id": 382,
+      "tp": 9,
+      "fp": 6,
+      "fn": 25,
+      "num_predictions": 15,
+      "num_gt": 34,
+      "precision": 0.6,
+      "recall": 0.2647058823529412
+    },
+    {
+      "frame_id": 383,
+      "tp": 10,
+      "fp": 6,
+      "fn": 25,
+      "num_predictions": 16,
+      "num_gt": 35,
+      "precision": 0.625,
+      "recall": 0.2857142857142857
+    },
+    {
+      "frame_id": 384,
+      "tp": 10,
+      "fp": 6,
+      "fn": 25,
+      "num_predictions": 16,
+      "num_gt": 35,
+      "precision": 0.625,
+      "recall": 0.2857142857142857
+    },
+    {
+      "frame_id": 385,
+      "tp": 11,
+      "fp": 6,
+      "fn": 24,
+      "num_predictions": 17,
+      "num_gt": 35,
+      "precision": 0.6470588235294118,
+      "recall": 0.3142857142857143
+    },
+    {
+      "frame_id": 386,
+      "tp": 12,
+      "fp": 4,
+      "fn": 23,
+      "num_predictions": 16,
+      "num_gt": 35,
+      "precision": 0.75,
+      "recall": 0.34285714285714286
+    },
+    {
+      "frame_id": 387,
+      "tp": 13,
+      "fp": 6,
+      "fn": 22,
+      "num_predictions": 19,
+      "num_gt": 35,
+      "precision": 0.6842105263157895,
+      "recall": 0.37142857142857144
+    },
+    {
+      "frame_id": 388,
+      "tp": 11,
+      "fp": 6,
+      "fn": 24,
+      "num_predictions": 17,
+      "num_gt": 35,
+      "precision": 0.6470588235294118,
+      "recall": 0.3142857142857143
+    },
+    {
+      "frame_id": 389,
+      "tp": 12,
+      "fp": 5,
+      "fn": 23,
+      "num_predictions": 17,
+      "num_gt": 35,
+      "precision": 0.7058823529411765,
+      "recall": 0.34285714285714286
+    },
+    {
+      "frame_id": 390,
+      "tp": 13,
+      "fp": 6,
+      "fn": 22,
+      "num_predictions": 19,
+      "num_gt": 35,
+      "precision": 0.6842105263157895,
+      "recall": 0.37142857142857144
+    },
+    {
+      "frame_id": 391,
+      "tp": 12,
+      "fp": 7,
+      "fn": 23,
+      "num_predictions": 19,
+      "num_gt": 35,
+      "precision": 0.631578947368421,
+      "recall": 0.34285714285714286
+    },
+    {
+      "frame_id": 392,
+      "tp": 11,
+      "fp": 4,
+      "fn": 24,
+      "num_predictions": 15,
+      "num_gt": 35,
+      "precision": 0.7333333333333333,
+      "recall": 0.3142857142857143
+    },
+    {
+      "frame_id": 393,
+      "tp": 13,
+      "fp": 4,
+      "fn": 22,
+      "num_predictions": 17,
+      "num_gt": 35,
+      "precision": 0.7647058823529411,
+      "recall": 0.37142857142857144
+    },
+    {
+      "frame_id": 394,
+      "tp": 13,
+      "fp": 5,
+      "fn": 22,
+      "num_predictions": 18,
+      "num_gt": 35,
+      "precision": 0.7222222222222222,
+      "recall": 0.37142857142857144
+    },
+    {
+      "frame_id": 395,
+      "tp": 13,
+      "fp": 5,
+      "fn": 22,
+      "num_predictions": 18,
+      "num_gt": 35,
+      "precision": 0.7222222222222222,
+      "recall": 0.37142857142857144
+    },
+    {
+      "frame_id": 396,
+      "tp": 13,
+      "fp": 4,
+      "fn": 22,
+      "num_predictions": 17,
+      "num_gt": 35,
+      "precision": 0.7647058823529411,
+      "recall": 0.37142857142857144
+    },
+    {
+      "frame_id": 397,
+      "tp": 13,
+      "fp": 5,
+      "fn": 22,
+      "num_predictions": 18,
+      "num_gt": 35,
+      "precision": 0.7222222222222222,
+      "recall": 0.37142857142857144
+    },
+    {
+      "frame_id": 398,
+      "tp": 11,
+      "fp": 4,
+      "fn": 24,
+      "num_predictions": 15,
+      "num_gt": 35,
+      "precision": 0.7333333333333333,
+      "recall": 0.3142857142857143
+    },
+    {
+      "frame_id": 399,
+      "tp": 13,
+      "fp": 6,
+      "fn": 22,
+      "num_predictions": 19,
+      "num_gt": 35,
+      "precision": 0.6842105263157895,
+      "recall": 0.37142857142857144
+    },
+    {
+      "frame_id": 400,
+      "tp": 12,
+      "fp": 4,
+      "fn": 23,
+      "num_predictions": 16,
+      "num_gt": 35,
+      "precision": 0.75,
+      "recall": 0.34285714285714286
+    },
+    {
+      "frame_id": 401,
+      "tp": 12,
+      "fp": 6,
+      "fn": 23,
+      "num_predictions": 18,
+      "num_gt": 35,
+      "precision": 0.6666666666666666,
+      "recall": 0.34285714285714286
+    },
+    {
+      "frame_id": 402,
+      "tp": 11,
+      "fp": 6,
+      "fn": 24,
+      "num_predictions": 17,
+      "num_gt": 35,
+      "precision": 0.6470588235294118,
+      "recall": 0.3142857142857143
+    },
+    {
+      "frame_id": 403,
+      "tp": 9,
+      "fp": 4,
+      "fn": 26,
+      "num_predictions": 13,
+      "num_gt": 35,
+      "precision": 0.6923076923076923,
+      "recall": 0.2571428571428571
+    },
+    {
+      "frame_id": 404,
+      "tp": 10,
+      "fp": 7,
+      "fn": 25,
+      "num_predictions": 17,
+      "num_gt": 35,
+      "precision": 0.5882352941176471,
+      "recall": 0.2857142857142857
+    },
+    {
+      "frame_id": 405,
+      "tp": 9,
+      "fp": 5,
+      "fn": 26,
+      "num_predictions": 14,
+      "num_gt": 35,
+      "precision": 0.6428571428571429,
+      "recall": 0.2571428571428571
+    },
+    {
+      "frame_id": 406,
+      "tp": 9,
+      "fp": 5,
+      "fn": 26,
+      "num_predictions": 14,
+      "num_gt": 35,
+      "precision": 0.6428571428571429,
+      "recall": 0.2571428571428571
+    },
+    {
+      "frame_id": 407,
+      "tp": 11,
+      "fp": 4,
+      "fn": 24,
+      "num_predictions": 15,
+      "num_gt": 35,
+      "precision": 0.7333333333333333,
+      "recall": 0.3142857142857143
+    },
+    {
+      "frame_id": 408,
+      "tp": 11,
+      "fp": 2,
+      "fn": 24,
+      "num_predictions": 13,
+      "num_gt": 35,
+      "precision": 0.8461538461538461,
+      "recall": 0.3142857142857143
+    },
+    {
+      "frame_id": 409,
+      "tp": 11,
+      "fp": 4,
+      "fn": 24,
+      "num_predictions": 15,
+      "num_gt": 35,
+      "precision": 0.7333333333333333,
+      "recall": 0.3142857142857143
+    },
+    {
+      "frame_id": 410,
+      "tp": 13,
+      "fp": 6,
+      "fn": 22,
+      "num_predictions": 19,
+      "num_gt": 35,
+      "precision": 0.6842105263157895,
+      "recall": 0.37142857142857144
+    },
+    {
+      "frame_id": 411,
+      "tp": 13,
+      "fp": 5,
+      "fn": 22,
+      "num_predictions": 18,
+      "num_gt": 35,
+      "precision": 0.7222222222222222,
+      "recall": 0.37142857142857144
+    },
+    {
+      "frame_id": 412,
+      "tp": 11,
+      "fp": 5,
+      "fn": 24,
+      "num_predictions": 16,
+      "num_gt": 35,
+      "precision": 0.6875,
+      "recall": 0.3142857142857143
+    },
+    {
+      "frame_id": 413,
+      "tp": 14,
+      "fp": 6,
+      "fn": 21,
+      "num_predictions": 20,
+      "num_gt": 35,
+      "precision": 0.7,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 414,
+      "tp": 12,
+      "fp": 6,
+      "fn": 23,
+      "num_predictions": 18,
+      "num_gt": 35,
+      "precision": 0.6666666666666666,
+      "recall": 0.34285714285714286
+    },
+    {
+      "frame_id": 415,
+      "tp": 13,
+      "fp": 5,
+      "fn": 21,
+      "num_predictions": 18,
+      "num_gt": 34,
+      "precision": 0.7222222222222222,
+      "recall": 0.38235294117647056
+    },
+    {
+      "frame_id": 416,
+      "tp": 12,
+      "fp": 7,
+      "fn": 22,
+      "num_predictions": 19,
+      "num_gt": 34,
+      "precision": 0.631578947368421,
+      "recall": 0.35294117647058826
+    },
+    {
+      "frame_id": 417,
+      "tp": 12,
+      "fp": 5,
+      "fn": 22,
+      "num_predictions": 17,
+      "num_gt": 34,
+      "precision": 0.7058823529411765,
+      "recall": 0.35294117647058826
+    },
+    {
+      "frame_id": 418,
+      "tp": 11,
+      "fp": 7,
+      "fn": 23,
+      "num_predictions": 18,
+      "num_gt": 34,
+      "precision": 0.6111111111111112,
+      "recall": 0.3235294117647059
+    },
+    {
+      "frame_id": 419,
+      "tp": 12,
+      "fp": 6,
+      "fn": 22,
+      "num_predictions": 18,
+      "num_gt": 34,
+      "precision": 0.6666666666666666,
+      "recall": 0.35294117647058826
+    },
+    {
+      "frame_id": 420,
+      "tp": 11,
+      "fp": 5,
+      "fn": 23,
+      "num_predictions": 16,
+      "num_gt": 34,
+      "precision": 0.6875,
+      "recall": 0.3235294117647059
+    },
+    {
+      "frame_id": 421,
+      "tp": 11,
+      "fp": 5,
+      "fn": 23,
+      "num_predictions": 16,
+      "num_gt": 34,
+      "precision": 0.6875,
+      "recall": 0.3235294117647059
+    },
+    {
+      "frame_id": 422,
+      "tp": 11,
+      "fp": 3,
+      "fn": 23,
+      "num_predictions": 14,
+      "num_gt": 34,
+      "precision": 0.7857142857142857,
+      "recall": 0.3235294117647059
+    },
+    {
+      "frame_id": 423,
+      "tp": 13,
+      "fp": 4,
+      "fn": 21,
+      "num_predictions": 17,
+      "num_gt": 34,
+      "precision": 0.7647058823529411,
+      "recall": 0.38235294117647056
+    },
+    {
+      "frame_id": 424,
+      "tp": 12,
+      "fp": 4,
+      "fn": 22,
+      "num_predictions": 16,
+      "num_gt": 34,
+      "precision": 0.75,
+      "recall": 0.35294117647058826
+    },
+    {
+      "frame_id": 425,
+      "tp": 11,
+      "fp": 4,
+      "fn": 23,
+      "num_predictions": 15,
+      "num_gt": 34,
+      "precision": 0.7333333333333333,
+      "recall": 0.3235294117647059
+    },
+    {
+      "frame_id": 426,
+      "tp": 11,
+      "fp": 6,
+      "fn": 24,
+      "num_predictions": 17,
+      "num_gt": 35,
+      "precision": 0.6470588235294118,
+      "recall": 0.3142857142857143
+    },
+    {
+      "frame_id": 427,
+      "tp": 11,
+      "fp": 6,
+      "fn": 24,
+      "num_predictions": 17,
+      "num_gt": 35,
+      "precision": 0.6470588235294118,
+      "recall": 0.3142857142857143
+    },
+    {
+      "frame_id": 428,
+      "tp": 9,
+      "fp": 6,
+      "fn": 26,
+      "num_predictions": 15,
+      "num_gt": 35,
+      "precision": 0.6,
+      "recall": 0.2571428571428571
+    },
+    {
+      "frame_id": 429,
+      "tp": 9,
+      "fp": 6,
+      "fn": 26,
+      "num_predictions": 15,
+      "num_gt": 35,
+      "precision": 0.6,
+      "recall": 0.2571428571428571
+    },
+    {
+      "frame_id": 430,
+      "tp": 11,
+      "fp": 7,
+      "fn": 24,
+      "num_predictions": 18,
+      "num_gt": 35,
+      "precision": 0.6111111111111112,
+      "recall": 0.3142857142857143
+    },
+    {
+      "frame_id": 431,
+      "tp": 12,
+      "fp": 7,
+      "fn": 23,
+      "num_predictions": 19,
+      "num_gt": 35,
+      "precision": 0.631578947368421,
+      "recall": 0.34285714285714286
+    },
+    {
+      "frame_id": 432,
+      "tp": 12,
+      "fp": 6,
+      "fn": 23,
+      "num_predictions": 18,
+      "num_gt": 35,
+      "precision": 0.6666666666666666,
+      "recall": 0.34285714285714286
+    },
+    {
+      "frame_id": 433,
+      "tp": 11,
+      "fp": 5,
+      "fn": 24,
+      "num_predictions": 16,
+      "num_gt": 35,
+      "precision": 0.6875,
+      "recall": 0.3142857142857143
+    },
+    {
+      "frame_id": 434,
+      "tp": 12,
+      "fp": 7,
+      "fn": 23,
+      "num_predictions": 19,
+      "num_gt": 35,
+      "precision": 0.631578947368421,
+      "recall": 0.34285714285714286
+    },
+    {
+      "frame_id": 435,
+      "tp": 12,
+      "fp": 5,
+      "fn": 23,
+      "num_predictions": 17,
+      "num_gt": 35,
+      "precision": 0.7058823529411765,
+      "recall": 0.34285714285714286
+    },
+    {
+      "frame_id": 436,
+      "tp": 12,
+      "fp": 4,
+      "fn": 23,
+      "num_predictions": 16,
+      "num_gt": 35,
+      "precision": 0.75,
+      "recall": 0.34285714285714286
+    },
+    {
+      "frame_id": 437,
+      "tp": 11,
+      "fp": 3,
+      "fn": 24,
+      "num_predictions": 14,
+      "num_gt": 35,
+      "precision": 0.7857142857142857,
+      "recall": 0.3142857142857143
+    },
+    {
+      "frame_id": 438,
+      "tp": 12,
+      "fp": 1,
+      "fn": 23,
+      "num_predictions": 13,
+      "num_gt": 35,
+      "precision": 0.9230769230769231,
+      "recall": 0.34285714285714286
+    },
+    {
+      "frame_id": 439,
+      "tp": 11,
+      "fp": 2,
+      "fn": 24,
+      "num_predictions": 13,
+      "num_gt": 35,
+      "precision": 0.8461538461538461,
+      "recall": 0.3142857142857143
+    },
+    {
+      "frame_id": 440,
+      "tp": 12,
+      "fp": 3,
+      "fn": 23,
+      "num_predictions": 15,
+      "num_gt": 35,
+      "precision": 0.8,
+      "recall": 0.34285714285714286
+    },
+    {
+      "frame_id": 441,
+      "tp": 9,
+      "fp": 3,
+      "fn": 26,
+      "num_predictions": 12,
+      "num_gt": 35,
+      "precision": 0.75,
+      "recall": 0.2571428571428571
+    },
+    {
+      "frame_id": 442,
+      "tp": 10,
+      "fp": 4,
+      "fn": 25,
+      "num_predictions": 14,
+      "num_gt": 35,
+      "precision": 0.7142857142857143,
+      "recall": 0.2857142857142857
+    },
+    {
+      "frame_id": 443,
+      "tp": 10,
+      "fp": 1,
+      "fn": 24,
+      "num_predictions": 11,
+      "num_gt": 34,
+      "precision": 0.9090909090909091,
+      "recall": 0.29411764705882354
+    },
+    {
+      "frame_id": 444,
+      "tp": 11,
+      "fp": 9,
+      "fn": 23,
+      "num_predictions": 20,
+      "num_gt": 34,
+      "precision": 0.55,
+      "recall": 0.3235294117647059
+    },
+    {
+      "frame_id": 445,
+      "tp": 12,
+      "fp": 8,
+      "fn": 22,
+      "num_predictions": 20,
+      "num_gt": 34,
+      "precision": 0.6,
+      "recall": 0.35294117647058826
+    },
+    {
+      "frame_id": 446,
+      "tp": 13,
+      "fp": 6,
+      "fn": 21,
+      "num_predictions": 19,
+      "num_gt": 34,
+      "precision": 0.6842105263157895,
+      "recall": 0.38235294117647056
+    },
+    {
+      "frame_id": 447,
+      "tp": 13,
+      "fp": 7,
+      "fn": 21,
+      "num_predictions": 20,
+      "num_gt": 34,
+      "precision": 0.65,
+      "recall": 0.38235294117647056
+    },
+    {
+      "frame_id": 448,
+      "tp": 12,
+      "fp": 4,
+      "fn": 22,
+      "num_predictions": 16,
+      "num_gt": 34,
+      "precision": 0.75,
+      "recall": 0.35294117647058826
+    },
+    {
+      "frame_id": 449,
+      "tp": 14,
+      "fp": 3,
+      "fn": 20,
+      "num_predictions": 17,
+      "num_gt": 34,
+      "precision": 0.8235294117647058,
+      "recall": 0.4117647058823529
+    },
+    {
+      "frame_id": 450,
+      "tp": 13,
+      "fp": 3,
+      "fn": 21,
+      "num_predictions": 16,
+      "num_gt": 34,
+      "precision": 0.8125,
+      "recall": 0.38235294117647056
+    },
+    {
+      "frame_id": 451,
+      "tp": 13,
+      "fp": 4,
+      "fn": 21,
+      "num_predictions": 17,
+      "num_gt": 34,
+      "precision": 0.7647058823529411,
+      "recall": 0.38235294117647056
+    },
+    {
+      "frame_id": 452,
+      "tp": 12,
+      "fp": 4,
+      "fn": 22,
+      "num_predictions": 16,
+      "num_gt": 34,
+      "precision": 0.75,
+      "recall": 0.35294117647058826
+    },
+    {
+      "frame_id": 453,
+      "tp": 10,
+      "fp": 2,
+      "fn": 24,
+      "num_predictions": 12,
+      "num_gt": 34,
+      "precision": 0.8333333333333334,
+      "recall": 0.29411764705882354
+    },
+    {
+      "frame_id": 454,
+      "tp": 11,
+      "fp": 4,
+      "fn": 23,
+      "num_predictions": 15,
+      "num_gt": 34,
+      "precision": 0.7333333333333333,
+      "recall": 0.3235294117647059
+    },
+    {
+      "frame_id": 455,
+      "tp": 12,
+      "fp": 3,
+      "fn": 22,
+      "num_predictions": 15,
+      "num_gt": 34,
+      "precision": 0.8,
+      "recall": 0.35294117647058826
+    },
+    {
+      "frame_id": 456,
+      "tp": 14,
+      "fp": 4,
+      "fn": 20,
+      "num_predictions": 18,
+      "num_gt": 34,
+      "precision": 0.7777777777777778,
+      "recall": 0.4117647058823529
+    },
+    {
+      "frame_id": 457,
+      "tp": 13,
+      "fp": 7,
+      "fn": 21,
+      "num_predictions": 20,
+      "num_gt": 34,
+      "precision": 0.65,
+      "recall": 0.38235294117647056
+    },
+    {
+      "frame_id": 458,
+      "tp": 11,
+      "fp": 5,
+      "fn": 23,
+      "num_predictions": 16,
+      "num_gt": 34,
+      "precision": 0.6875,
+      "recall": 0.3235294117647059
+    },
+    {
+      "frame_id": 459,
+      "tp": 13,
+      "fp": 6,
+      "fn": 21,
+      "num_predictions": 19,
+      "num_gt": 34,
+      "precision": 0.6842105263157895,
+      "recall": 0.38235294117647056
+    },
+    {
+      "frame_id": 460,
+      "tp": 11,
+      "fp": 7,
+      "fn": 23,
+      "num_predictions": 18,
+      "num_gt": 34,
+      "precision": 0.6111111111111112,
+      "recall": 0.3235294117647059
+    },
+    {
+      "frame_id": 461,
+      "tp": 12,
+      "fp": 6,
+      "fn": 22,
+      "num_predictions": 18,
+      "num_gt": 34,
+      "precision": 0.6666666666666666,
+      "recall": 0.35294117647058826
+    },
+    {
+      "frame_id": 462,
+      "tp": 12,
+      "fp": 6,
+      "fn": 22,
+      "num_predictions": 18,
+      "num_gt": 34,
+      "precision": 0.6666666666666666,
+      "recall": 0.35294117647058826
+    },
+    {
+      "frame_id": 463,
+      "tp": 11,
+      "fp": 9,
+      "fn": 23,
+      "num_predictions": 20,
+      "num_gt": 34,
+      "precision": 0.55,
+      "recall": 0.3235294117647059
+    },
+    {
+      "frame_id": 464,
+      "tp": 13,
+      "fp": 7,
+      "fn": 21,
+      "num_predictions": 20,
+      "num_gt": 34,
+      "precision": 0.65,
+      "recall": 0.38235294117647056
+    },
+    {
+      "frame_id": 465,
+      "tp": 12,
+      "fp": 5,
+      "fn": 22,
+      "num_predictions": 17,
+      "num_gt": 34,
+      "precision": 0.7058823529411765,
+      "recall": 0.35294117647058826
+    },
+    {
+      "frame_id": 466,
+      "tp": 13,
+      "fp": 4,
+      "fn": 20,
+      "num_predictions": 17,
+      "num_gt": 33,
+      "precision": 0.7647058823529411,
+      "recall": 0.3939393939393939
+    },
+    {
+      "frame_id": 467,
+      "tp": 14,
+      "fp": 4,
+      "fn": 19,
+      "num_predictions": 18,
+      "num_gt": 33,
+      "precision": 0.7777777777777778,
+      "recall": 0.42424242424242425
+    },
+    {
+      "frame_id": 468,
+      "tp": 12,
+      "fp": 5,
+      "fn": 21,
+      "num_predictions": 17,
+      "num_gt": 33,
+      "precision": 0.7058823529411765,
+      "recall": 0.36363636363636365
+    },
+    {
+      "frame_id": 469,
+      "tp": 13,
+      "fp": 6,
+      "fn": 20,
+      "num_predictions": 19,
+      "num_gt": 33,
+      "precision": 0.6842105263157895,
+      "recall": 0.3939393939393939
+    },
+    {
+      "frame_id": 470,
+      "tp": 13,
+      "fp": 6,
+      "fn": 20,
+      "num_predictions": 19,
+      "num_gt": 33,
+      "precision": 0.6842105263157895,
+      "recall": 0.3939393939393939
+    },
+    {
+      "frame_id": 471,
+      "tp": 14,
+      "fp": 5,
+      "fn": 20,
+      "num_predictions": 19,
+      "num_gt": 34,
+      "precision": 0.7368421052631579,
+      "recall": 0.4117647058823529
+    },
+    {
+      "frame_id": 472,
+      "tp": 13,
+      "fp": 6,
+      "fn": 21,
+      "num_predictions": 19,
+      "num_gt": 34,
+      "precision": 0.6842105263157895,
+      "recall": 0.38235294117647056
+    },
+    {
+      "frame_id": 473,
+      "tp": 13,
+      "fp": 8,
+      "fn": 21,
+      "num_predictions": 21,
+      "num_gt": 34,
+      "precision": 0.6190476190476191,
+      "recall": 0.38235294117647056
+    },
+    {
+      "frame_id": 474,
+      "tp": 14,
+      "fp": 6,
+      "fn": 20,
+      "num_predictions": 20,
+      "num_gt": 34,
+      "precision": 0.7,
+      "recall": 0.4117647058823529
+    },
+    {
+      "frame_id": 475,
+      "tp": 15,
+      "fp": 5,
+      "fn": 19,
+      "num_predictions": 20,
+      "num_gt": 34,
+      "precision": 0.75,
+      "recall": 0.4411764705882353
+    },
+    {
+      "frame_id": 476,
+      "tp": 15,
+      "fp": 6,
+      "fn": 19,
+      "num_predictions": 21,
+      "num_gt": 34,
+      "precision": 0.7142857142857143,
+      "recall": 0.4411764705882353
+    },
+    {
+      "frame_id": 477,
+      "tp": 13,
+      "fp": 9,
+      "fn": 21,
+      "num_predictions": 22,
+      "num_gt": 34,
+      "precision": 0.5909090909090909,
+      "recall": 0.38235294117647056
+    },
+    {
+      "frame_id": 478,
+      "tp": 14,
+      "fp": 9,
+      "fn": 20,
+      "num_predictions": 23,
+      "num_gt": 34,
+      "precision": 0.6086956521739131,
+      "recall": 0.4117647058823529
+    },
+    {
+      "frame_id": 479,
+      "tp": 15,
+      "fp": 9,
+      "fn": 19,
+      "num_predictions": 24,
+      "num_gt": 34,
+      "precision": 0.625,
+      "recall": 0.4411764705882353
+    },
+    {
+      "frame_id": 480,
+      "tp": 14,
+      "fp": 5,
+      "fn": 20,
+      "num_predictions": 19,
+      "num_gt": 34,
+      "precision": 0.7368421052631579,
+      "recall": 0.4117647058823529
+    },
+    {
+      "frame_id": 481,
+      "tp": 14,
+      "fp": 8,
+      "fn": 20,
+      "num_predictions": 22,
+      "num_gt": 34,
+      "precision": 0.6363636363636364,
+      "recall": 0.4117647058823529
+    },
+    {
+      "frame_id": 482,
+      "tp": 17,
+      "fp": 10,
+      "fn": 17,
+      "num_predictions": 27,
+      "num_gt": 34,
+      "precision": 0.6296296296296297,
+      "recall": 0.5
+    },
+    {
+      "frame_id": 483,
+      "tp": 17,
+      "fp": 10,
+      "fn": 16,
+      "num_predictions": 27,
+      "num_gt": 33,
+      "precision": 0.6296296296296297,
+      "recall": 0.5151515151515151
+    },
+    {
+      "frame_id": 484,
+      "tp": 19,
+      "fp": 6,
+      "fn": 14,
+      "num_predictions": 25,
+      "num_gt": 33,
+      "precision": 0.76,
+      "recall": 0.5757575757575758
+    },
+    {
+      "frame_id": 485,
+      "tp": 17,
+      "fp": 7,
+      "fn": 16,
+      "num_predictions": 24,
+      "num_gt": 33,
+      "precision": 0.7083333333333334,
+      "recall": 0.5151515151515151
+    },
+    {
+      "frame_id": 486,
+      "tp": 16,
+      "fp": 8,
+      "fn": 17,
+      "num_predictions": 24,
+      "num_gt": 33,
+      "precision": 0.6666666666666666,
+      "recall": 0.48484848484848486
+    },
+    {
+      "frame_id": 487,
+      "tp": 18,
+      "fp": 8,
+      "fn": 15,
+      "num_predictions": 26,
+      "num_gt": 33,
+      "precision": 0.6923076923076923,
+      "recall": 0.5454545454545454
+    },
+    {
+      "frame_id": 488,
+      "tp": 17,
+      "fp": 7,
+      "fn": 15,
+      "num_predictions": 24,
+      "num_gt": 32,
+      "precision": 0.7083333333333334,
+      "recall": 0.53125
+    },
+    {
+      "frame_id": 489,
+      "tp": 17,
+      "fp": 7,
+      "fn": 15,
+      "num_predictions": 24,
+      "num_gt": 32,
+      "precision": 0.7083333333333334,
+      "recall": 0.53125
+    },
+    {
+      "frame_id": 490,
+      "tp": 17,
+      "fp": 5,
+      "fn": 17,
+      "num_predictions": 22,
+      "num_gt": 34,
+      "precision": 0.7727272727272727,
+      "recall": 0.5
+    },
+    {
+      "frame_id": 491,
+      "tp": 17,
+      "fp": 6,
+      "fn": 18,
+      "num_predictions": 23,
+      "num_gt": 35,
+      "precision": 0.7391304347826086,
+      "recall": 0.4857142857142857
+    },
+    {
+      "frame_id": 492,
+      "tp": 18,
+      "fp": 5,
+      "fn": 17,
+      "num_predictions": 23,
+      "num_gt": 35,
+      "precision": 0.782608695652174,
+      "recall": 0.5142857142857142
+    },
+    {
+      "frame_id": 493,
+      "tp": 18,
+      "fp": 5,
+      "fn": 17,
+      "num_predictions": 23,
+      "num_gt": 35,
+      "precision": 0.782608695652174,
+      "recall": 0.5142857142857142
+    },
+    {
+      "frame_id": 494,
+      "tp": 18,
+      "fp": 3,
+      "fn": 17,
+      "num_predictions": 21,
+      "num_gt": 35,
+      "precision": 0.8571428571428571,
+      "recall": 0.5142857142857142
+    },
+    {
+      "frame_id": 495,
+      "tp": 19,
+      "fp": 3,
+      "fn": 15,
+      "num_predictions": 22,
+      "num_gt": 34,
+      "precision": 0.8636363636363636,
+      "recall": 0.5588235294117647
+    },
+    {
+      "frame_id": 496,
+      "tp": 18,
+      "fp": 5,
+      "fn": 16,
+      "num_predictions": 23,
+      "num_gt": 34,
+      "precision": 0.782608695652174,
+      "recall": 0.5294117647058824
+    },
+    {
+      "frame_id": 497,
+      "tp": 16,
+      "fp": 5,
+      "fn": 18,
+      "num_predictions": 21,
+      "num_gt": 34,
+      "precision": 0.7619047619047619,
+      "recall": 0.47058823529411764
+    },
+    {
+      "frame_id": 498,
+      "tp": 16,
+      "fp": 4,
+      "fn": 18,
+      "num_predictions": 20,
+      "num_gt": 34,
+      "precision": 0.8,
+      "recall": 0.47058823529411764
+    },
+    {
+      "frame_id": 499,
+      "tp": 15,
+      "fp": 7,
+      "fn": 19,
+      "num_predictions": 22,
+      "num_gt": 34,
+      "precision": 0.6818181818181818,
+      "recall": 0.4411764705882353
+    },
+    {
+      "frame_id": 500,
+      "tp": 17,
+      "fp": 5,
+      "fn": 17,
+      "num_predictions": 22,
+      "num_gt": 34,
+      "precision": 0.7727272727272727,
+      "recall": 0.5
+    },
+    {
+      "frame_id": 501,
+      "tp": 15,
+      "fp": 5,
+      "fn": 19,
+      "num_predictions": 20,
+      "num_gt": 34,
+      "precision": 0.75,
+      "recall": 0.4411764705882353
+    },
+    {
+      "frame_id": 502,
+      "tp": 15,
+      "fp": 4,
+      "fn": 19,
+      "num_predictions": 19,
+      "num_gt": 34,
+      "precision": 0.7894736842105263,
+      "recall": 0.4411764705882353
+    },
+    {
+      "frame_id": 503,
+      "tp": 18,
+      "fp": 4,
+      "fn": 16,
+      "num_predictions": 22,
+      "num_gt": 34,
+      "precision": 0.8181818181818182,
+      "recall": 0.5294117647058824
+    },
+    {
+      "frame_id": 504,
+      "tp": 19,
+      "fp": 4,
+      "fn": 15,
+      "num_predictions": 23,
+      "num_gt": 34,
+      "precision": 0.8260869565217391,
+      "recall": 0.5588235294117647
+    },
+    {
+      "frame_id": 505,
+      "tp": 16,
+      "fp": 3,
+      "fn": 18,
+      "num_predictions": 19,
+      "num_gt": 34,
+      "precision": 0.8421052631578947,
+      "recall": 0.47058823529411764
+    },
+    {
+      "frame_id": 506,
+      "tp": 16,
+      "fp": 3,
+      "fn": 18,
+      "num_predictions": 19,
+      "num_gt": 34,
+      "precision": 0.8421052631578947,
+      "recall": 0.47058823529411764
+    },
+    {
+      "frame_id": 507,
+      "tp": 19,
+      "fp": 5,
+      "fn": 15,
+      "num_predictions": 24,
+      "num_gt": 34,
+      "precision": 0.7916666666666666,
+      "recall": 0.5588235294117647
+    },
+    {
+      "frame_id": 508,
+      "tp": 18,
+      "fp": 5,
+      "fn": 15,
+      "num_predictions": 23,
+      "num_gt": 33,
+      "precision": 0.782608695652174,
+      "recall": 0.5454545454545454
+    },
+    {
+      "frame_id": 509,
+      "tp": 17,
+      "fp": 4,
+      "fn": 16,
+      "num_predictions": 21,
+      "num_gt": 33,
+      "precision": 0.8095238095238095,
+      "recall": 0.5151515151515151
+    },
+    {
+      "frame_id": 510,
+      "tp": 16,
+      "fp": 3,
+      "fn": 17,
+      "num_predictions": 19,
+      "num_gt": 33,
+      "precision": 0.8421052631578947,
+      "recall": 0.48484848484848486
+    },
+    {
+      "frame_id": 511,
+      "tp": 17,
+      "fp": 3,
+      "fn": 16,
+      "num_predictions": 20,
+      "num_gt": 33,
+      "precision": 0.85,
+      "recall": 0.5151515151515151
+    },
+    {
+      "frame_id": 512,
+      "tp": 18,
+      "fp": 5,
+      "fn": 15,
+      "num_predictions": 23,
+      "num_gt": 33,
+      "precision": 0.782608695652174,
+      "recall": 0.5454545454545454
+    },
+    {
+      "frame_id": 513,
+      "tp": 17,
+      "fp": 5,
+      "fn": 16,
+      "num_predictions": 22,
+      "num_gt": 33,
+      "precision": 0.7727272727272727,
+      "recall": 0.5151515151515151
+    },
+    {
+      "frame_id": 514,
+      "tp": 16,
+      "fp": 5,
+      "fn": 17,
+      "num_predictions": 21,
+      "num_gt": 33,
+      "precision": 0.7619047619047619,
+      "recall": 0.48484848484848486
+    },
+    {
+      "frame_id": 515,
+      "tp": 16,
+      "fp": 5,
+      "fn": 17,
+      "num_predictions": 21,
+      "num_gt": 33,
+      "precision": 0.7619047619047619,
+      "recall": 0.48484848484848486
+    },
+    {
+      "frame_id": 516,
+      "tp": 16,
+      "fp": 4,
+      "fn": 16,
+      "num_predictions": 20,
+      "num_gt": 32,
+      "precision": 0.8,
+      "recall": 0.5
+    },
+    {
+      "frame_id": 517,
+      "tp": 15,
+      "fp": 6,
+      "fn": 16,
+      "num_predictions": 21,
+      "num_gt": 31,
+      "precision": 0.7142857142857143,
+      "recall": 0.4838709677419355
+    },
+    {
+      "frame_id": 518,
+      "tp": 16,
+      "fp": 5,
+      "fn": 15,
+      "num_predictions": 21,
+      "num_gt": 31,
+      "precision": 0.7619047619047619,
+      "recall": 0.5161290322580645
+    },
+    {
+      "frame_id": 519,
+      "tp": 16,
+      "fp": 5,
+      "fn": 15,
+      "num_predictions": 21,
+      "num_gt": 31,
+      "precision": 0.7619047619047619,
+      "recall": 0.5161290322580645
+    },
+    {
+      "frame_id": 520,
+      "tp": 16,
+      "fp": 5,
+      "fn": 15,
+      "num_predictions": 21,
+      "num_gt": 31,
+      "precision": 0.7619047619047619,
+      "recall": 0.5161290322580645
+    },
+    {
+      "frame_id": 521,
+      "tp": 16,
+      "fp": 4,
+      "fn": 15,
+      "num_predictions": 20,
+      "num_gt": 31,
+      "precision": 0.8,
+      "recall": 0.5161290322580645
+    },
+    {
+      "frame_id": 522,
+      "tp": 14,
+      "fp": 5,
+      "fn": 17,
+      "num_predictions": 19,
+      "num_gt": 31,
+      "precision": 0.7368421052631579,
+      "recall": 0.45161290322580644
+    },
+    {
+      "frame_id": 523,
+      "tp": 16,
+      "fp": 3,
+      "fn": 15,
+      "num_predictions": 19,
+      "num_gt": 31,
+      "precision": 0.8421052631578947,
+      "recall": 0.5161290322580645
+    },
+    {
+      "frame_id": 524,
+      "tp": 16,
+      "fp": 3,
+      "fn": 15,
+      "num_predictions": 19,
+      "num_gt": 31,
+      "precision": 0.8421052631578947,
+      "recall": 0.5161290322580645
+    },
+    {
+      "frame_id": 525,
+      "tp": 16,
+      "fp": 2,
+      "fn": 15,
+      "num_predictions": 18,
+      "num_gt": 31,
+      "precision": 0.8888888888888888,
+      "recall": 0.5161290322580645
+    },
+    {
+      "frame_id": 526,
+      "tp": 15,
+      "fp": 2,
+      "fn": 16,
+      "num_predictions": 17,
+      "num_gt": 31,
+      "precision": 0.8823529411764706,
+      "recall": 0.4838709677419355
+    },
+    {
+      "frame_id": 527,
+      "tp": 15,
+      "fp": 2,
+      "fn": 16,
+      "num_predictions": 17,
+      "num_gt": 31,
+      "precision": 0.8823529411764706,
+      "recall": 0.4838709677419355
+    },
+    {
+      "frame_id": 528,
+      "tp": 14,
+      "fp": 2,
+      "fn": 17,
+      "num_predictions": 16,
+      "num_gt": 31,
+      "precision": 0.875,
+      "recall": 0.45161290322580644
+    },
+    {
+      "frame_id": 529,
+      "tp": 14,
+      "fp": 3,
+      "fn": 17,
+      "num_predictions": 17,
+      "num_gt": 31,
+      "precision": 0.8235294117647058,
+      "recall": 0.45161290322580644
+    },
+    {
+      "frame_id": 530,
+      "tp": 15,
+      "fp": 4,
+      "fn": 17,
+      "num_predictions": 19,
+      "num_gt": 32,
+      "precision": 0.7894736842105263,
+      "recall": 0.46875
+    },
+    {
+      "frame_id": 531,
+      "tp": 15,
+      "fp": 2,
+      "fn": 17,
+      "num_predictions": 17,
+      "num_gt": 32,
+      "precision": 0.8823529411764706,
+      "recall": 0.46875
+    },
+    {
+      "frame_id": 532,
+      "tp": 15,
+      "fp": 2,
+      "fn": 17,
+      "num_predictions": 17,
+      "num_gt": 32,
+      "precision": 0.8823529411764706,
+      "recall": 0.46875
+    },
+    {
+      "frame_id": 533,
+      "tp": 14,
+      "fp": 1,
+      "fn": 19,
+      "num_predictions": 15,
+      "num_gt": 33,
+      "precision": 0.9333333333333333,
+      "recall": 0.42424242424242425
+    },
+    {
+      "frame_id": 534,
+      "tp": 15,
+      "fp": 2,
+      "fn": 18,
+      "num_predictions": 17,
+      "num_gt": 33,
+      "precision": 0.8823529411764706,
+      "recall": 0.45454545454545453
+    },
+    {
+      "frame_id": 535,
+      "tp": 16,
+      "fp": 2,
+      "fn": 17,
+      "num_predictions": 18,
+      "num_gt": 33,
+      "precision": 0.8888888888888888,
+      "recall": 0.48484848484848486
+    },
+    {
+      "frame_id": 536,
+      "tp": 16,
+      "fp": 2,
+      "fn": 17,
+      "num_predictions": 18,
+      "num_gt": 33,
+      "precision": 0.8888888888888888,
+      "recall": 0.48484848484848486
+    },
+    {
+      "frame_id": 537,
+      "tp": 15,
+      "fp": 1,
+      "fn": 18,
+      "num_predictions": 16,
+      "num_gt": 33,
+      "precision": 0.9375,
+      "recall": 0.45454545454545453
+    },
+    {
+      "frame_id": 538,
+      "tp": 15,
+      "fp": 1,
+      "fn": 18,
+      "num_predictions": 16,
+      "num_gt": 33,
+      "precision": 0.9375,
+      "recall": 0.45454545454545453
+    },
+    {
+      "frame_id": 539,
+      "tp": 15,
+      "fp": 1,
+      "fn": 18,
+      "num_predictions": 16,
+      "num_gt": 33,
+      "precision": 0.9375,
+      "recall": 0.45454545454545453
+    },
+    {
+      "frame_id": 540,
+      "tp": 16,
+      "fp": 2,
+      "fn": 16,
+      "num_predictions": 18,
+      "num_gt": 32,
+      "precision": 0.8888888888888888,
+      "recall": 0.5
+    },
+    {
+      "frame_id": 541,
+      "tp": 16,
+      "fp": 2,
+      "fn": 16,
+      "num_predictions": 18,
+      "num_gt": 32,
+      "precision": 0.8888888888888888,
+      "recall": 0.5
+    },
+    {
+      "frame_id": 542,
+      "tp": 15,
+      "fp": 2,
+      "fn": 18,
+      "num_predictions": 17,
+      "num_gt": 33,
+      "precision": 0.8823529411764706,
+      "recall": 0.45454545454545453
+    },
+    {
+      "frame_id": 543,
+      "tp": 14,
+      "fp": 3,
+      "fn": 19,
+      "num_predictions": 17,
+      "num_gt": 33,
+      "precision": 0.8235294117647058,
+      "recall": 0.42424242424242425
+    },
+    {
+      "frame_id": 544,
+      "tp": 13,
+      "fp": 1,
+      "fn": 20,
+      "num_predictions": 14,
+      "num_gt": 33,
+      "precision": 0.9285714285714286,
+      "recall": 0.3939393939393939
+    },
+    {
+      "frame_id": 545,
+      "tp": 14,
+      "fp": 1,
+      "fn": 19,
+      "num_predictions": 15,
+      "num_gt": 33,
+      "precision": 0.9333333333333333,
+      "recall": 0.42424242424242425
+    },
+    {
+      "frame_id": 546,
+      "tp": 13,
+      "fp": 3,
+      "fn": 20,
+      "num_predictions": 16,
+      "num_gt": 33,
+      "precision": 0.8125,
+      "recall": 0.3939393939393939
+    },
+    {
+      "frame_id": 547,
+      "tp": 13,
+      "fp": 3,
+      "fn": 20,
+      "num_predictions": 16,
+      "num_gt": 33,
+      "precision": 0.8125,
+      "recall": 0.3939393939393939
+    },
+    {
+      "frame_id": 548,
+      "tp": 13,
+      "fp": 2,
+      "fn": 20,
+      "num_predictions": 15,
+      "num_gt": 33,
+      "precision": 0.8666666666666667,
+      "recall": 0.3939393939393939
+    },
+    {
+      "frame_id": 549,
+      "tp": 13,
+      "fp": 3,
+      "fn": 20,
+      "num_predictions": 16,
+      "num_gt": 33,
+      "precision": 0.8125,
+      "recall": 0.3939393939393939
+    },
+    {
+      "frame_id": 550,
+      "tp": 14,
+      "fp": 1,
+      "fn": 18,
+      "num_predictions": 15,
+      "num_gt": 32,
+      "precision": 0.9333333333333333,
+      "recall": 0.4375
+    },
+    {
+      "frame_id": 551,
+      "tp": 14,
+      "fp": 1,
+      "fn": 18,
+      "num_predictions": 15,
+      "num_gt": 32,
+      "precision": 0.9333333333333333,
+      "recall": 0.4375
+    },
+    {
+      "frame_id": 552,
+      "tp": 13,
+      "fp": 3,
+      "fn": 19,
+      "num_predictions": 16,
+      "num_gt": 32,
+      "precision": 0.8125,
+      "recall": 0.40625
+    },
+    {
+      "frame_id": 553,
+      "tp": 14,
+      "fp": 0,
+      "fn": 18,
+      "num_predictions": 14,
+      "num_gt": 32,
+      "precision": 1.0,
+      "recall": 0.4375
+    },
+    {
+      "frame_id": 554,
+      "tp": 14,
+      "fp": 1,
+      "fn": 18,
+      "num_predictions": 15,
+      "num_gt": 32,
+      "precision": 0.9333333333333333,
+      "recall": 0.4375
+    },
+    {
+      "frame_id": 555,
+      "tp": 14,
+      "fp": 2,
+      "fn": 18,
+      "num_predictions": 16,
+      "num_gt": 32,
+      "precision": 0.875,
+      "recall": 0.4375
+    },
+    {
+      "frame_id": 556,
+      "tp": 13,
+      "fp": 2,
+      "fn": 19,
+      "num_predictions": 15,
+      "num_gt": 32,
+      "precision": 0.8666666666666667,
+      "recall": 0.40625
+    },
+    {
+      "frame_id": 557,
+      "tp": 13,
+      "fp": 4,
+      "fn": 19,
+      "num_predictions": 17,
+      "num_gt": 32,
+      "precision": 0.7647058823529411,
+      "recall": 0.40625
+    },
+    {
+      "frame_id": 558,
+      "tp": 14,
+      "fp": 3,
+      "fn": 18,
+      "num_predictions": 17,
+      "num_gt": 32,
+      "precision": 0.8235294117647058,
+      "recall": 0.4375
+    },
+    {
+      "frame_id": 559,
+      "tp": 14,
+      "fp": 1,
+      "fn": 18,
+      "num_predictions": 15,
+      "num_gt": 32,
+      "precision": 0.9333333333333333,
+      "recall": 0.4375
+    },
+    {
+      "frame_id": 560,
+      "tp": 14,
+      "fp": 4,
+      "fn": 18,
+      "num_predictions": 18,
+      "num_gt": 32,
+      "precision": 0.7777777777777778,
+      "recall": 0.4375
+    },
+    {
+      "frame_id": 561,
+      "tp": 13,
+      "fp": 3,
+      "fn": 19,
+      "num_predictions": 16,
+      "num_gt": 32,
+      "precision": 0.8125,
+      "recall": 0.40625
+    },
+    {
+      "frame_id": 562,
+      "tp": 15,
+      "fp": 4,
+      "fn": 17,
+      "num_predictions": 19,
+      "num_gt": 32,
+      "precision": 0.7894736842105263,
+      "recall": 0.46875
+    },
+    {
+      "frame_id": 563,
+      "tp": 13,
+      "fp": 3,
+      "fn": 19,
+      "num_predictions": 16,
+      "num_gt": 32,
+      "precision": 0.8125,
+      "recall": 0.40625
+    },
+    {
+      "frame_id": 564,
+      "tp": 13,
+      "fp": 4,
+      "fn": 19,
+      "num_predictions": 17,
+      "num_gt": 32,
+      "precision": 0.7647058823529411,
+      "recall": 0.40625
+    },
+    {
+      "frame_id": 565,
+      "tp": 14,
+      "fp": 4,
+      "fn": 18,
+      "num_predictions": 18,
+      "num_gt": 32,
+      "precision": 0.7777777777777778,
+      "recall": 0.4375
+    },
+    {
+      "frame_id": 566,
+      "tp": 14,
+      "fp": 2,
+      "fn": 18,
+      "num_predictions": 16,
+      "num_gt": 32,
+      "precision": 0.875,
+      "recall": 0.4375
+    },
+    {
+      "frame_id": 567,
+      "tp": 14,
+      "fp": 3,
+      "fn": 18,
+      "num_predictions": 17,
+      "num_gt": 32,
+      "precision": 0.8235294117647058,
+      "recall": 0.4375
+    },
+    {
+      "frame_id": 568,
+      "tp": 15,
+      "fp": 2,
+      "fn": 17,
+      "num_predictions": 17,
+      "num_gt": 32,
+      "precision": 0.8823529411764706,
+      "recall": 0.46875
+    },
+    {
+      "frame_id": 569,
+      "tp": 16,
+      "fp": 2,
+      "fn": 16,
+      "num_predictions": 18,
+      "num_gt": 32,
+      "precision": 0.8888888888888888,
+      "recall": 0.5
+    },
+    {
+      "frame_id": 570,
+      "tp": 14,
+      "fp": 2,
+      "fn": 17,
+      "num_predictions": 16,
+      "num_gt": 31,
+      "precision": 0.875,
+      "recall": 0.45161290322580644
+    },
+    {
+      "frame_id": 571,
+      "tp": 14,
+      "fp": 3,
+      "fn": 17,
+      "num_predictions": 17,
+      "num_gt": 31,
+      "precision": 0.8235294117647058,
+      "recall": 0.45161290322580644
+    },
+    {
+      "frame_id": 572,
+      "tp": 14,
+      "fp": 3,
+      "fn": 17,
+      "num_predictions": 17,
+      "num_gt": 31,
+      "precision": 0.8235294117647058,
+      "recall": 0.45161290322580644
+    },
+    {
+      "frame_id": 573,
+      "tp": 12,
+      "fp": 3,
+      "fn": 19,
+      "num_predictions": 15,
+      "num_gt": 31,
+      "precision": 0.8,
+      "recall": 0.3870967741935484
+    },
+    {
+      "frame_id": 574,
+      "tp": 13,
+      "fp": 4,
+      "fn": 18,
+      "num_predictions": 17,
+      "num_gt": 31,
+      "precision": 0.7647058823529411,
+      "recall": 0.41935483870967744
+    },
+    {
+      "frame_id": 575,
+      "tp": 12,
+      "fp": 4,
+      "fn": 19,
+      "num_predictions": 16,
+      "num_gt": 31,
+      "precision": 0.75,
+      "recall": 0.3870967741935484
+    },
+    {
+      "frame_id": 576,
+      "tp": 13,
+      "fp": 2,
+      "fn": 17,
+      "num_predictions": 15,
+      "num_gt": 30,
+      "precision": 0.8666666666666667,
+      "recall": 0.43333333333333335
+    },
+    {
+      "frame_id": 577,
+      "tp": 13,
+      "fp": 1,
+      "fn": 17,
+      "num_predictions": 14,
+      "num_gt": 30,
+      "precision": 0.9285714285714286,
+      "recall": 0.43333333333333335
+    },
+    {
+      "frame_id": 578,
+      "tp": 13,
+      "fp": 4,
+      "fn": 17,
+      "num_predictions": 17,
+      "num_gt": 30,
+      "precision": 0.7647058823529411,
+      "recall": 0.43333333333333335
+    },
+    {
+      "frame_id": 579,
+      "tp": 12,
+      "fp": 3,
+      "fn": 18,
+      "num_predictions": 15,
+      "num_gt": 30,
+      "precision": 0.8,
+      "recall": 0.4
+    },
+    {
+      "frame_id": 580,
+      "tp": 13,
+      "fp": 2,
+      "fn": 16,
+      "num_predictions": 15,
+      "num_gt": 29,
+      "precision": 0.8666666666666667,
+      "recall": 0.4482758620689655
+    },
+    {
+      "frame_id": 581,
+      "tp": 14,
+      "fp": 2,
+      "fn": 14,
+      "num_predictions": 16,
+      "num_gt": 28,
+      "precision": 0.875,
+      "recall": 0.5
+    },
+    {
+      "frame_id": 582,
+      "tp": 13,
+      "fp": 2,
+      "fn": 14,
+      "num_predictions": 15,
+      "num_gt": 27,
+      "precision": 0.8666666666666667,
+      "recall": 0.48148148148148145
+    },
+    {
+      "frame_id": 583,
+      "tp": 12,
+      "fp": 4,
+      "fn": 15,
+      "num_predictions": 16,
+      "num_gt": 27,
+      "precision": 0.75,
+      "recall": 0.4444444444444444
+    },
+    {
+      "frame_id": 584,
+      "tp": 13,
+      "fp": 3,
+      "fn": 14,
+      "num_predictions": 16,
+      "num_gt": 27,
+      "precision": 0.8125,
+      "recall": 0.48148148148148145
+    },
+    {
+      "frame_id": 585,
+      "tp": 12,
+      "fp": 4,
+      "fn": 14,
+      "num_predictions": 16,
+      "num_gt": 26,
+      "precision": 0.75,
+      "recall": 0.46153846153846156
+    },
+    {
+      "frame_id": 586,
+      "tp": 12,
+      "fp": 3,
+      "fn": 14,
+      "num_predictions": 15,
+      "num_gt": 26,
+      "precision": 0.8,
+      "recall": 0.46153846153846156
+    },
+    {
+      "frame_id": 587,
+      "tp": 11,
+      "fp": 4,
+      "fn": 14,
+      "num_predictions": 15,
+      "num_gt": 25,
+      "precision": 0.7333333333333333,
+      "recall": 0.44
+    },
+    {
+      "frame_id": 588,
+      "tp": 12,
+      "fp": 5,
+      "fn": 13,
+      "num_predictions": 17,
+      "num_gt": 25,
+      "precision": 0.7058823529411765,
+      "recall": 0.48
+    },
+    {
+      "frame_id": 589,
+      "tp": 12,
+      "fp": 4,
+      "fn": 13,
+      "num_predictions": 16,
+      "num_gt": 25,
+      "precision": 0.75,
+      "recall": 0.48
+    },
+    {
+      "frame_id": 590,
+      "tp": 12,
+      "fp": 3,
+      "fn": 13,
+      "num_predictions": 15,
+      "num_gt": 25,
+      "precision": 0.8,
+      "recall": 0.48
+    },
+    {
+      "frame_id": 591,
+      "tp": 12,
+      "fp": 2,
+      "fn": 14,
+      "num_predictions": 14,
+      "num_gt": 26,
+      "precision": 0.8571428571428571,
+      "recall": 0.46153846153846156
+    },
+    {
+      "frame_id": 592,
+      "tp": 12,
+      "fp": 4,
+      "fn": 14,
+      "num_predictions": 16,
+      "num_gt": 26,
+      "precision": 0.75,
+      "recall": 0.46153846153846156
+    },
+    {
+      "frame_id": 593,
+      "tp": 11,
+      "fp": 3,
+      "fn": 15,
+      "num_predictions": 14,
+      "num_gt": 26,
+      "precision": 0.7857142857142857,
+      "recall": 0.4230769230769231
+    },
+    {
+      "frame_id": 594,
+      "tp": 11,
+      "fp": 4,
+      "fn": 15,
+      "num_predictions": 15,
+      "num_gt": 26,
+      "precision": 0.7333333333333333,
+      "recall": 0.4230769230769231
+    },
+    {
+      "frame_id": 595,
+      "tp": 12,
+      "fp": 2,
+      "fn": 13,
+      "num_predictions": 14,
+      "num_gt": 25,
+      "precision": 0.8571428571428571,
+      "recall": 0.48
+    },
+    {
+      "frame_id": 596,
+      "tp": 11,
+      "fp": 4,
+      "fn": 14,
+      "num_predictions": 15,
+      "num_gt": 25,
+      "precision": 0.7333333333333333,
+      "recall": 0.44
+    },
+    {
+      "frame_id": 597,
+      "tp": 12,
+      "fp": 2,
+      "fn": 13,
+      "num_predictions": 14,
+      "num_gt": 25,
+      "precision": 0.8571428571428571,
+      "recall": 0.48
+    },
+    {
+      "frame_id": 598,
+      "tp": 12,
+      "fp": 2,
+      "fn": 13,
+      "num_predictions": 14,
+      "num_gt": 25,
+      "precision": 0.8571428571428571,
+      "recall": 0.48
+    },
+    {
+      "frame_id": 599,
+      "tp": 12,
+      "fp": 3,
+      "fn": 13,
+      "num_predictions": 15,
+      "num_gt": 25,
+      "precision": 0.8,
+      "recall": 0.48
+    },
+    {
+      "frame_id": 600,
+      "tp": 12,
+      "fp": 2,
+      "fn": 16,
+      "num_predictions": 14,
+      "num_gt": 28,
+      "precision": 0.8571428571428571,
+      "recall": 0.42857142857142855
+    }
+  ]
+}
