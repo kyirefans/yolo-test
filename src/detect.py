@@ -24,6 +24,7 @@ def run_detection(
         output_dir: Directory to save results.
         conf: Confidence threshold.
         iou: NMS IoU threshold.
+        imgsz: Inference image size.
         name: Experiment/output name.
         save_json: Whether to save detection results as JSON.
     """
@@ -144,11 +145,12 @@ def parse_args():
         action="store_true",
         help="Disable JSON saving.",
     )
+
     parser.add_argument(
-    "--imgsz",
-    type=int,
-    default=640,
-    help="Inference image size.",
+        "--imgsz",
+        type=int,
+        default=640,
+        help="Inference image size.",
     )
 
     return parser.parse_args()
