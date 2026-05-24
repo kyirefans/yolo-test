@@ -1,6 +1,7 @@
 from pathlib import Path
 import argparse
 import json
+import statistics
 import time
 
 from ultralytics import YOLO
@@ -33,6 +34,8 @@ def benchmark_inference(
     iou,
     imgsz,
     save_predictions,
+    warmup,
+    repeat,
 ):
     source_path = Path(source)
     if not source.startswith("http") and not source_path.exists():
@@ -41,28 +44,58 @@ def benchmark_inference(
     frame_count = count_image_files(source)
     model = YOLO(model_path)
 
-    start_time = time.perf_counter()
-    results = model.predict(
-        source=source,
-        conf=conf,
-        iou=iou,
-        imgsz=imgsz,
-        save=save_predictions,
-        project=output_dir,
-        name=name,
-        exist_ok=True,
-        verbose=False,
-    )
-    total_time = time.perf_counter() - start_time
+    def run_once(run_index, timed):
+        run_name = name if save_predictions and timed and run_index == 0 else f"{name}_tmp"
+        start_time = time.perf_counter()
+        run_results = model.predict(
+            source=source,
+            conf=conf,
+            iou=iou,
+            imgsz=imgsz,
+            save=save_predictions and timed and run_index == 0,
+            project=output_dir,
+            name=run_name,
+            exist_ok=True,
+            verbose=False,
+        )
+        elapsed = time.perf_counter() - start_time
+        return run_results, elapsed
 
-    result_count = len(results)
-    effective_frames = frame_count or result_count
-    fps = effective_frames / total_time if total_time > 0 else 0.0
-    total_detections = 0
+    for warmup_index in range(warmup):
+        run_once(warmup_index, timed=False)
 
-    for result in results:
-        if result.boxes is not None:
-            total_detections += len(result.boxes)
+    runs = []
+    final_results = []
+    for repeat_index in range(repeat):
+        results, total_time = run_once(repeat_index, timed=True)
+        result_count = len(results)
+        effective_frames = frame_count or result_count
+        fps = effective_frames / total_time if total_time > 0 else 0.0
+        total_detections = sum(
+            len(result.boxes)
+            for result in results
+            if result.boxes is not None
+        )
+        runs.append(
+            {
+                "run_index": repeat_index + 1,
+                "total_time_sec": total_time,
+                "fps": fps,
+                "result_count": result_count,
+                "frame_count": effective_frames,
+                "total_detections": total_detections,
+            }
+        )
+        final_results = results
+
+    fps_values = [run["fps"] for run in runs]
+    time_values = [run["total_time_sec"] for run in runs]
+    effective_frames = runs[-1]["frame_count"] if runs else 0
+    result_count = len(final_results)
+    total_detections = runs[-1]["total_detections"] if runs else 0
+
+    fps_std = statistics.stdev(fps_values) if len(fps_values) > 1 else 0.0
+    time_std = statistics.stdev(time_values) if len(time_values) > 1 else 0.0
 
     summary = {
         "source": str(source),
@@ -74,8 +107,15 @@ def benchmark_inference(
         "frame_count": effective_frames,
         "result_count": result_count,
         "total_detections": total_detections,
-        "total_time_sec": total_time,
-        "fps": fps,
+        "warmup": warmup,
+        "repeat": repeat,
+        "runs": runs,
+        "total_time_sec": statistics.mean(time_values) if time_values else 0.0,
+        "total_time_std_sec": time_std,
+        "fps": statistics.mean(fps_values) if fps_values else 0.0,
+        "fps_std": fps_std,
+        "fps_min": min(fps_values) if fps_values else 0.0,
+        "fps_max": max(fps_values) if fps_values else 0.0,
         "save_predictions": save_predictions,
     }
 
@@ -101,6 +141,8 @@ def parse_args():
     parser.add_argument("--conf", type=float, default=0.25, help="Confidence threshold.")
     parser.add_argument("--iou", type=float, default=0.7, help="NMS IoU threshold.")
     parser.add_argument("--imgsz", type=int, default=640, help="Inference image size.")
+    parser.add_argument("--warmup", type=int, default=1, help="Number of warmup runs.")
+    parser.add_argument("--repeat", type=int, default=3, help="Number of timed runs.")
     parser.add_argument(
         "--save-predictions",
         action="store_true",
@@ -121,6 +163,8 @@ if __name__ == "__main__":
         iou=args.iou,
         imgsz=args.imgsz,
         save_predictions=args.save_predictions,
+        warmup=args.warmup,
+        repeat=args.repeat,
     )
 
     print("\nInference Benchmark")
@@ -134,6 +178,11 @@ if __name__ == "__main__":
     print(f"imgsz:            {summary['imgsz']}")
     print(f"conf:             {summary['conf']}")
     print(f"iou:              {summary['iou']}")
-    print(f"Total time:       {summary['total_time_sec']:.3f} sec")
-    print(f"FPS:              {summary['fps']:.2f}")
+    print(f"Warmup runs:      {summary['warmup']}")
+    print(f"Timed repeats:    {summary['repeat']}")
+    print(f"Mean time:        {summary['total_time_sec']:.3f} sec")
+    print(f"Time std:         {summary['total_time_std_sec']:.3f} sec")
+    print(f"Mean FPS:         {summary['fps']:.2f}")
+    print(f"FPS std:          {summary['fps_std']:.2f}")
+    print(f"FPS min/max:      {summary['fps_min']:.2f} / {summary['fps_max']:.2f}")
     print(f"Summary saved to: {summary_path}")
