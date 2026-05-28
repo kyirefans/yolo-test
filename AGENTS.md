@@ -255,32 +255,6 @@ Suggested report structure:
 
 ## How Codex Should Work In This Repository
 
-### Git Checkpoints
-
-Before Codex starts any hands-on task that may change files, run a Git checkpoint first:
-
-```bash
-git status
-git add .
-git commit -m "checkpoint before codex task"
-```
-
-Purpose:
-
-```text
-Create a rollback point before Codex edits code, notes, reports, scripts, or experiment files.
-```
-
-After Codex finishes a substantial task, create another checkpoint when the user asks to save the result or when the work produced meaningful file changes:
-
-```bash
-git status
-git add .
-git commit -m "checkpoint after codex task"
-```
-
-If `git commit` reports that there is nothing to commit, continue without treating it as a failure.
-
 When helping the user learn:
 
 - Prefer teaching through the current repository files and experiment outputs.

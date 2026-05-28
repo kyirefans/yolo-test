@@ -1,0 +1,179 @@
+{
+  "total_sources": 447,
+  "total_detections": 3002,
+  "class_counts": {
+    "person": 2655,
+    "train": 1,
+    "cup": 8,
+    "bottle": 3,
+    "car": 17,
+    "tv": 102,
+    "umbrella": 4,
+    "chair": 68,
+    "sports ball": 41,
+    "clock": 24,
+    "baseball glove": 18,
+    "bench": 5,
+    "frisbee": 18,
+    "traffic light": 19,
+    "orange": 9,
+    "tennis racket": 1,
+    "bicycle": 3,
+    "donut": 2,
+    "bowl": 4
+  },
+  "per_class_stats": [
+    {
+      "class_name": "person",
+      "count": 2655,
+      "avg_confidence": 0.6512,
+      "max_confidence": 0.9527,
+      "min_confidence": 0.25,
+      "avg_box_area": 136155.83
+    },
+    {
+      "class_name": "tv",
+      "count": 102,
+      "avg_confidence": 0.3556,
+      "max_confidence": 0.5488,
+      "min_confidence": 0.2514,
+      "avg_box_area": 25680.8
+    },
+    {
+      "class_name": "chair",
+      "count": 68,
+      "avg_confidence": 0.3197,
+      "max_confidence": 0.6015,
+      "min_confidence": 0.2511,
+      "avg_box_area": 20683.35
+    },
+    {
+      "class_name": "sports ball",
+      "count": 41,
+      "avg_confidence": 0.4019,
+      "max_confidence": 0.7434,
+      "min_confidence": 0.252,
+      "avg_box_area": 11230.38
+    },
+    {
+      "class_name": "clock",
+      "count": 24,
+      "avg_confidence": 0.4013,
+      "max_confidence": 0.5482,
+      "min_confidence": 0.2513,
+      "avg_box_area": 17494.28
+    },
+    {
+      "class_name": "traffic light",
+      "count": 19,
+      "avg_confidence": 0.3923,
+      "max_confidence": 0.5862,
+      "min_confidence": 0.2694,
+      "avg_box_area": 29845.72
+    },
+    {
+      "class_name": "baseball glove",
+      "count": 18,
+      "avg_confidence": 0.4625,
+      "max_confidence": 0.7488,
+      "min_confidence": 0.3244,
+      "avg_box_area": 13604.41
+    },
+    {
+      "class_name": "frisbee",
+      "count": 18,
+      "avg_confidence": 0.3778,
+      "max_confidence": 0.6191,
+      "min_confidence": 0.2599,
+      "avg_box_area": 15493.99
+    },
+    {
+      "class_name": "car",
+      "count": 17,
+      "avg_confidence": 0.3146,
+      "max_confidence": 0.3914,
+      "min_confidence": 0.2682,
+      "avg_box_area": 34265.87
+    },
+    {
+      "class_name": "orange",
+      "count": 9,
+      "avg_confidence": 0.3647,
+      "max_confidence": 0.4522,
+      "min_confidence": 0.2585,
+      "avg_box_area": 13543.19
+    },
+    {
+      "class_name": "cup",
+      "count": 8,
+      "avg_confidence": 0.326,
+      "max_confidence": 0.4071,
+      "min_confidence": 0.257,
+      "avg_box_area": 4924.5
+    },
+    {
+      "class_name": "bench",
+      "count": 5,
+      "avg_confidence": 0.3433,
+      "max_confidence": 0.3776,
+      "min_confidence": 0.2973,
+      "avg_box_area": 108010.49
+    },
+    {
+      "class_name": "umbrella",
+      "count": 4,
+      "avg_confidence": 0.4991,
+      "max_confidence": 0.706,
+      "min_confidence": 0.2837,
+      "avg_box_area": 211833.71
+    },
+    {
+      "class_name": "bowl",
+      "count": 4,
+      "avg_confidence": 0.3274,
+      "max_confidence": 0.3915,
+      "min_confidence": 0.2656,
+      "avg_box_area": 40523.17
+    },
+    {
+      "class_name": "bottle",
+      "count": 3,
+      "avg_confidence": 0.3457,
+      "max_confidence": 0.3832,
+      "min_confidence": 0.2832,
+      "avg_box_area": 4689.7
+    },
+    {
+      "class_name": "bicycle",
+      "count": 3,
+      "avg_confidence": 0.6864,
+      "max_confidence": 0.6892,
+      "min_confidence": 0.6837,
+      "avg_box_area": 8885.29
+    },
+    {
+      "class_name": "donut",
+      "count": 2,
+      "avg_confidence": 0.4226,
+      "max_confidence": 0.4886,
+      "min_confidence": 0.3566,
+      "avg_box_area": 11410.58
+    },
+    {
+      "class_name": "train",
+      "count": 1,
+      "avg_confidence": 0.2753,
+      "max_confidence": 0.2753,
+      "min_confidence": 0.2753,
+      "avg_box_area": 1874172.35
+    },
+    {
+      "class_name": "tennis racket",
+      "count": 1,
+      "avg_confidence": 0.5933,
+      "max_confidence": 0.5933,
+      "min_confidence": 0.5933,
+      "avg_box_area": 9553.22
+    }
+  ]
+}

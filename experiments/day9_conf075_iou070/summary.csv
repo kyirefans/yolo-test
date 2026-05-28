@@ -1,0 +1,2 @@
+class_name,count,avg_confidence,max_confidence,min_confidence,avg_box_area
+person,1171,0.8562,0.9527,0.75,217927.1

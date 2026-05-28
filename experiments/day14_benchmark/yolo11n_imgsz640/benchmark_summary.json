@@ -1,0 +1,14 @@
+{
+  "source": "datasets/MOT17-02-SDP/img1",
+  "model": "yolo11n.pt",
+  "model_size_mb": 5.353702545166016,
+  "conf": 0.25,
+  "iou": 0.7,
+  "imgsz": 640,
+  "frame_count": 600,
+  "result_count": 600,
+  "total_detections": 7363,
+  "total_time_sec": 42.91308053299872,
+  "fps": 13.981750844911264,
+  "save_predictions": false
+}
